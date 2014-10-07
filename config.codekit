@@ -8188,6 +8188,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/src\/Frontend\/Cache\/CompiledTemplates\/6871dc4ede2c0881b3048034aa125ab3_Pagination.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Cache\/CompiledTemplates\/6871dc4ede2c0881b3048034aa125ab3_Pagination.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/src\/Frontend\/Cache\/CompiledTemplates\/735a98c991d8c3991b5a2db8e4382521_Breadcrumb.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -8256,6 +8265,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/Frontend\/Cache\/CompiledTemplates\/d1e072adba68b0f1459018c69b3ea446_Cookies.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/Frontend\/Cache\/CompiledTemplates\/d71ceb385823418e57195db86219ee6e_Index.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Cache\/CompiledTemplates\/d71ceb385823418e57195db86219ee6e_Index.tpl.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -9653,72 +9671,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/Frontend\/Themes\/potnoodle\/apple-touch-icon-114x114-precomposed.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3893,
-		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/apple-touch-icon-114x114-precomposed.png",
-		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/apple-touch-icon-114x114-precomposed.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/src\/Frontend\/Themes\/potnoodle\/apple-touch-icon-144x144-precomposed.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4923,
-		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/apple-touch-icon-144x144-precomposed.png",
-		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/apple-touch-icon-144x144-precomposed.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/src\/Frontend\/Themes\/potnoodle\/apple-touch-icon-57x57-precomposed.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1767,
-		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/apple-touch-icon-57x57-precomposed.png",
-		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/apple-touch-icon-57x57-precomposed.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/src\/Frontend\/Themes\/potnoodle\/apple-touch-icon-72x72-precomposed.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2428,
-		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/apple-touch-icon-72x72-precomposed.png",
-		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/apple-touch-icon-72x72-precomposed.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/src\/Frontend\/Themes\/potnoodle\/apple-touch-icon-precomposed.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3893,
-		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/apple-touch-icon-precomposed.png",
-		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/apple-touch-icon-precomposed.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/src\/Frontend\/Themes\/potnoodle\/apple-touch-icon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1745,
-		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/apple-touch-icon.png",
-		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/apple-touch-icon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/src\/Frontend\/Themes\/potnoodle\/Core\/Js\/min\/theme-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -9824,6 +9776,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Img\/home_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.93466e+06,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Img\/home_bg.jpg",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Img\/home_bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Img\/icon-menu.png": {
 		"fileType": 32768,
@@ -10236,17 +10199,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/Frontend\/Themes\/potnoodle\/favicon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 909,
-		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/favicon.png",
-		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/favicon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/src\/Frontend\/Themes\/potnoodle\/README.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -10258,28 +10210,6 @@
 		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/README.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/src\/Frontend\/Themes\/potnoodle\/thumbnail.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4524,
-		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/thumbnail.png",
-		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/thumbnail.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/src\/Frontend\/Themes\/potnoodle\/tile.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4923,
-		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/tile.png",
-		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/tile.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/src\/Frontend\/Themes\/triton\/apple-touch-icon.png": {
 		"fileType": 32768,

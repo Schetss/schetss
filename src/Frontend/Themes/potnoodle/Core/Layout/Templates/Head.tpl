@@ -19,6 +19,12 @@
 	<meta name="MobileOptimized" content="320">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+	<!-- Fonts -->
+
+	<script src="//use.typekit.net/khj8bjq.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+
 	{* Stylesheets *}
 	{iteration:cssFiles}
 		<link rel="stylesheet" href="{$cssFiles.file}" />

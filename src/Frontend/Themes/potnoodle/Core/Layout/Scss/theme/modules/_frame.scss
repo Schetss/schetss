@@ -7,7 +7,7 @@
 	@include padding-tb(1,0);
 
 	@include mq($bp4) {
-		@include padding-tb(1,1);
+		@include padding-tb(0,0);
 	}
 }
 
@@ -16,13 +16,15 @@
 //
 
 .header-holder {
-	@include background-opacity($beta-ui-color, 0.9);
+	background-color: $beta-text-color;
+	//@include background-opacity($beta-text-color, 0.9);
 	@include mq($bp3) {
 		@include padding-top(0);
 	}
 }
 
 .header {
+	@include padding-tb(0.6,0.6);
 	@include box-(12,1,1);
 
 	@include mq($bp4) {
@@ -48,8 +50,8 @@
 	}
 
 .logo {
-	width: 170px;
-	height: 55px;
+	width: 120px;
+	height: 39px;
 }
 
 
@@ -82,7 +84,7 @@
 //
 
 .footer-holder {
-	background-color: $alpha-text-color;
+	background-color: $alpha-ui-color;
 	color: lighten($alpha-text-color,70);
 	@include padding-tb(1,1);
 
@@ -91,6 +93,40 @@
 	}
 }
 
-	.footer {
-		@include box-(12,1,1);
+.footer {
+	@include box-(12,1,1);
+}
+
+.contact-info {
+	width: 39%;
+	float: left;
+}
+
+.contact-form {
+	width: 60%;
+	float: right; 
+}
+
+// social media footer
+
+.sm {
+	//float: left;
+	padding-left: 0px;
+	@extend %clearfix;
+
+	li{
+		list-style-type: none;
+		width: 40px;
+		height: 40px;
+		float: left;
+		margin-right: 20px;
 	}
+
+}
+
+
+
+
+
+
+

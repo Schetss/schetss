@@ -40,6 +40,33 @@
 //
 //
 
-#main-home {
-	background-image: url('src/Frontend/Core/Layout/images/home_bg.jpg');
+.main-holder {
+	background-image: url('../Img/home_bg.jpg');
 }
+
+
+
+//
+// text editor wijzigingen
+//
+
+.home-header {
+	color: $beta-text-color;
+}
+
+.home-button {
+	border: 1px solid $beta-text-color;
+	border-radius: 12px;
+	width: 250px;
+	padding-left: 1em;
+
+	p {
+		font-size: 1.5em;		
+		color: $beta-text-color;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
+
+
+
