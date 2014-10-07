@@ -77,13 +77,14 @@ $highlight		: 0%; // Range: 0-100%
 
 // Colors
 
-$alpha-text-color	: #444;
-$beta-text-color	: #777;
+$alpha-text-color	: #3A3931; // Dark grey
+$beta-text-color	: #F2F7E5; // White
 
-$alpha-ui-color		: #0A69E7; // Primary elements
-$beta-ui-color		: #CCC; // Secondary elements
-$gamma-ui-color		: #DDD; // Used for borders
-$delta-ui-color		: #FFF; // Used for backgrounds
+$alpha-ui-color		: #376EB6; // Dark blue
+$beta-ui-color		: #4DA4DB; // Light blue
+$gamma-ui-color		: #FFCD14; // Yellow
+$delta-ui-color		: $beta-text-color;
+$epsilon-ui-color	: #59584E; // Grey
 
 $error-color 		: red;
 $success-color 		: green;

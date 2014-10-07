@@ -5,7 +5,7 @@
 			{* SEO logo: H1 for home, p for other pages *}
 
 			{option:isPage1}
-				<h1><a title="{$siteTitle}" href="/">{$siteTitle}</a></h1>
+				<a title="{$siteTitle}" href="/"><img class="logo" src="/src/Frontend/Core/Layout/images/logo.png" alt="logo" /></a>
 			{/option:isPage1}
 
 			{option:!isPage1}
@@ -13,7 +13,7 @@
 			{/option:!isPage1}
 
 			{* Navigation *}
-			<nav>
+			<nav class="main-nav">
 				{$var|getnavigation:'page':0:1}
 			</nav>
 
@@ -28,9 +28,6 @@
 					{include:Core/Layout/Templates/Languages.tpl}
 				</nav>
 			{/option:languages}
-
-			{* Search widget: so you don't have to make a position *}
-			{$var|parsewidget:'Search':'Form'}
 
 		</div>
 	</div>

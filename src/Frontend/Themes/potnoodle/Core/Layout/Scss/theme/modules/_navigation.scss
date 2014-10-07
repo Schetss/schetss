@@ -1,0 +1,67 @@
+//
+// Navigation
+//
+
+.main-nav {
+	float: left;
+	width: 100%;
+
+	ul {
+		@extend %clearfix;
+		font-family: $alpha-font-family;
+		@include list-nav;
+		@include text-dimensions($alpha-font-size,1,1);
+	}
+
+	a {
+		color: lighten($alpha-text-color,50);
+		text-decoration: none;
+		font-weight: $beta-font-weight;
+	}
+
+	a:hover,
+	.selected a {
+		color: darken($alpha-ui-color,0);
+	}
+}
+
+.mobile-nav .main-nav {
+	display: none;
+}
+
+.main-nav,
+.mobile-nav .main-nav {
+	@include mq($bp3) {
+		display: block !important;
+		width: auto;
+		float: right;
+
+		ul {
+			@include horizontal-nav();
+			@include text-dimensions(14,1,0);
+		}
+
+		li {
+			@include px-margin-lr(1,0);
+		}
+	}
+}
+
+.main-nav-trigger {
+	display: block;
+	float: right;
+	width: 2.1em;
+	height: 2.1em;
+	text-indent: -9999px;
+	@include text-dimensions($alpha-font-size,1,1);
+	@include svg-bg("../img/icon-menu", ".png", $alpha-text-color, 50%, no-repeat);
+
+	@include mq($bp3) {
+		display: none;
+	}
+}
+
+.svg .trigger-active,
+.trigger-active {
+	background-color: $alpha-link-color;
+}
