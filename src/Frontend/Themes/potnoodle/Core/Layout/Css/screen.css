@@ -1277,8 +1277,8 @@ button {
   .header-holder {
     padding-top: 0em; } }
 .header-holder h1 {
-  padding-top: 1.8em;
-  padding-bottom: 1.8em; }
+  padding-top: 4.8em;
+  padding-bottom: 1.5em; }
 
 .header {
   padding-top: 0.9em;
@@ -1717,6 +1717,36 @@ button {
 .svg .trigger-active,
 .trigger-active {
   background-color: #FFCD14; }
+
+.over-header {
+  background-image: url("../Img/home_bg.jpg"); }
+
+.overons-main {
+  padding-top: 3em;
+  padding-bottom: 3em; }
+  .overons-main p {
+    float: left;
+    width: 60%; }
+  .overons-main img {
+    float: right;
+    width: 30%; }
+  .overons-main hr {
+    margin-top: 3em; }
+
+.overons-part2 {
+  background-color: #3A3931;
+  color: #F2F7E5; }
+
+.overons-left {
+  width: 45%;
+  float: left; }
+
+.overons-right {
+  width: 45%;
+  float: right; }
+
+.overons-middle {
+  clear: both; }
 
 @media print {
   * {

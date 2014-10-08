@@ -8242,6 +8242,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/src\/Frontend\/Cache\/CompiledTemplates\/46a2c60fde08327c8ab672a377b95637_Over.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Cache\/CompiledTemplates\/46a2c60fde08327c8ab672a377b95637_Over.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/src\/Frontend\/Cache\/CompiledTemplates\/496da11c3d3750a63f9dacf7992abee7_Home.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -8274,6 +8283,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/Frontend\/Cache\/CompiledTemplates\/57a3771a9f46799a5fc815b34b93a756_Header.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/Frontend\/Cache\/CompiledTemplates\/5b7300b75f582ceaf958186959c706d9_Detail.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Cache\/CompiledTemplates\/5b7300b75f582ceaf958186959c706d9_Detail.tpl.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -9142,6 +9160,72 @@
 		"initialSize": 6344,
 		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/backend_users\/avatars\/source\/god.jpg",
 		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/backend_users\/avatars\/source\/god.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/blog\/images\/128x128\/schetss-nl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14729,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/blog\/images\/128x128\/schetss-nl.jpg",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/blog\/images\/128x128\/schetss-nl.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/blog\/images\/128x128\/tc-duvels-nl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14223,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/blog\/images\/128x128\/tc-duvels-nl.jpg",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/blog\/images\/128x128\/tc-duvels-nl.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/blog\/images\/128x128\/vrd-nl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12598,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/blog\/images\/128x128\/vrd-nl.jpg",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/blog\/images\/128x128\/vrd-nl.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/blog\/images\/source\/schetss-nl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 242731,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/blog\/images\/source\/schetss-nl.jpg",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/blog\/images\/source\/schetss-nl.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/blog\/images\/source\/tc-duvels-nl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 327446,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/blog\/images\/source\/tc-duvels-nl.jpg",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/blog\/images\/source\/tc-duvels-nl.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/blog\/images\/source\/vrd-nl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 274791,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/blog\/images\/source\/vrd-nl.jpg",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/blog\/images\/source\/vrd-nl.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -10461,6 +10545,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/theme\/modules\/_navigation.scss",
 		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/theme\/css\/_navigation.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/theme\/modules\/_projecten 2.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/theme\/modules\/_projecten 2.scss",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/theme\/css\/_projecten 2.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

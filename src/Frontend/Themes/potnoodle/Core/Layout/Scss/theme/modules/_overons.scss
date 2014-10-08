@@ -1,0 +1,44 @@
+.over-header{
+	background-image: url('../Img/home_bg.jpg');
+}
+
+.overons-main {
+	@include padding-tb(2,2);
+
+	h3 {
+		//float: left;
+	}
+
+	p {
+		float: left; 
+		width: 60%;
+	}
+
+	img {
+		float: right; 
+		width: 30%;
+	}
+
+	hr {
+		margin-top: 3em;
+	}
+}
+
+.overons-part2 {
+	background-color: $alpha-text-color;
+	color: $beta-text-color;
+}
+
+.overons-left {
+	width: 45%;
+	float: left;
+}
+
+.overons-right {
+	width: 45%;
+	float: right;
+}
+
+.overons-middle {
+	clear: both;
+}
