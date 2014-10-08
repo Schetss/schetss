@@ -10,6 +10,7 @@ form {
 
 legend,
 label {
+	font-weight: 600;
 	display: block;
 	width: 100%;
 	cursor: pointer;
@@ -42,7 +43,7 @@ textarea {
 			font-smoothing: antialiased;
 	background-color: $delta-ui-color;
 	border-radius: $radius;
-	border: $border-width $border-style $gamma-ui-color;
+	border: 0;
 	color: lighten($alpha-text-color, 30);
 	font-family: $alpha-font-family;
 	margin: 0;
@@ -54,7 +55,7 @@ textarea {
 	&:focus {
 		color: $alpha-text-color;
 		outline-color: $gamma-ui-color;
-		border-color: darken($gamma-ui-color, 20);
+		// border-color: darken($gamma-ui-color, 20);
 	}
 
 	@include mq($bp3) {
@@ -66,8 +67,16 @@ textarea {
 	}
 }
 
+input[type="text"], input[type="email"] {
+	height: 50px;
+	padding-left: 10px;
+	font-size: 1em !important;
+}
+
 textarea {
-	height: auto;
+	height: 150px;
+	padding-left: 10px;
+	font-size: 1em !important;
 }
 
 // Placeholders
@@ -91,16 +100,29 @@ textarea {
 
 input[type="submit"],
 button {
-	@extend %btn;
-	@include btn-s;
-	@include btn-color;
+	background-color: $gamma-ui-color;
+	color: $alpha-ui-color;
+	border:none;
+	float: right;
+	border-radius: $radius;
+	width: 200px;
+	height: 40px;
+	margin-top: 20px;
+	font-size: 1.1em;
+	font-weight: 600;
+	cursor: pointer;
 
-	@include mq($bp3) {
-		@include input-m;
-		@include btn-inlineblock;
-	}
 
-	@include mq($bp5) {
-		@include input-l;
-	}
+	// @extend %btn;
+	// @include btn-s;
+	// // @include btn-color;
+
+	// @include mq($bp3) {
+	// 	@include input-m;
+	// 	@include btn-inlineblock;
+	// }
+
+	// @include mq($bp5) {
+	// 	@include input-l;
+	// }
 }

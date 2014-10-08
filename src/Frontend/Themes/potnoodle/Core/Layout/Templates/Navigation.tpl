@@ -6,5 +6,8 @@
 				{option:navigation.selected}{$navigation.children}{/option:navigation.selected}
 			</li>
 		{/iteration:navigation}
+		<li>
+			<a href="#">Contact</a>
+		</li>
 	</ul>
 {/option:navigation}

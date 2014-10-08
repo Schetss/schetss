@@ -8,18 +8,11 @@
 	<![endif]-->
 	
 	{* Header *}
-	{include:Core/Layout/Templates/HeaderDefault.tpl}
+	{include:Core/Layout/Templates/HeaderProjecten.tpl}
 
 		<main id="main" class="holder main-holder" role="main">
 			<div class="row">
 				<div class="main">
-					
-					{* Page title *}
-					{option:!hideContentTitle}
-						<header class="mainTitle">
-							<h1>{$page.title}</h1>
-						</header>
-					{/option:!hideContentTitle}
 
 					{* Main position *}
 					{option:positionMain}
@@ -35,6 +28,7 @@
 				</div>
 			</div>
 		</main>
+
 
 	{* Footer *}
 	{include:Core/Layout/Templates/Footer.tpl}

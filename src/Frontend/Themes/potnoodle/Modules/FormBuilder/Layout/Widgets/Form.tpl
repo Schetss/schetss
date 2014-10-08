@@ -26,7 +26,7 @@
 						{option:fields.simple}
 							<p{option:fields.error} class="errorArea"{/option:fields.error}>
 								<label for="{$fields.name}">
-									{$fields.label}{option:fields.required}<abbr title="{$lblRequiredField}">*</abbr>{/option:fields.required}
+									{$fields.label}{option:fields.required}<abbr title="{$lblRequiredField}"></abbr>{/option:fields.required}
 								</label>
 								{$fields.html}
 								{option:fields.error}<span class="formError inlineError">{$fields.error}</span>{/option:fields.error}

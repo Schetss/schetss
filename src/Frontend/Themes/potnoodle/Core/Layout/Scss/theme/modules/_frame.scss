@@ -3,7 +3,7 @@
 //
 
 .holder {
-	background-color: $delta-ui-color;
+	background-color: $beta-text-color;
 	@include padding-tb(1,0);
 
 	@include mq($bp4) {
@@ -11,17 +11,36 @@
 	}
 }
 
+
+//
+// wrappers
+//
+
+#wrapper {
+	background-image: url('../Img/home_bg.jpg');
+	padding-bottom: 2em;
+}
+
+
+
 //
 // Header
 //
 
 .header-holder {
-	background-color: $beta-text-color;
+	//background-color: $beta-text-color;
 	//@include background-opacity($beta-text-color, 0.9);
 	@include mq($bp3) {
 		@include padding-top(0);
 	}
+
+	h1 
+	{
+		@include padding-tb(1.2,1.2);
+	}
+
 }
+
 
 .header {
 	@include padding-tb(0.6,0.6);
@@ -55,8 +74,42 @@
 }
 
 
+//
+// header background
+//
+
+.header-left {
+	float: left;
+	position: absolute; 
+	width: 25%;
+	opacity: 0.7;
+	border-top: 4.4em solid $beta-text-color;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 30%;
+
+}
+
+.header-right {
+ 	position: absolute;
+ 	right: 0;  
+opacity: 0.7;
+	border-bottom: 4.4em solid $beta-text-color;
+	border-left: 50px solid transparent;
+	height: 0;
+	width: 70%;
+}
 
 
+
+
+//
+// main
+//
+
+.main-holder {
+	@include padding-tb(0,3);
+}
 
 
 //
@@ -86,7 +139,6 @@
 .footer-holder {
 	background-color: $alpha-ui-color;
 	color: lighten($alpha-text-color,70);
-	@include padding-tb(1,1);
 
 	p {
 		padding: 0;
@@ -94,20 +146,54 @@
 }
 
 .footer {
-	@include box-(12,1,1);
+	@include box-(12,0,0);
+		@include padding-tb(2,1.5);
 }
+
+
+.pre-footer {
+	background-color: $gamma-ui-color;
+	h3 {
+		color: $alpha-ui-color;
+		font-size: 1.2em;
+		font-weight: 600;
+		font-family: $alpha-font-family;
+		@include padding-tb(0.5,0.5);	
+	}
+}
+
 
 .contact-info {
 	width: 39%;
 	float: left;
+
+	h5 {
+		font-size: 1.4em;
+		font-family: $alpha-font-family;
+		@include padding-tb(0.6,0.1);
+	}
+
+	a {
+		font-size: 1.1em;
+	}
+
+}
+
+.copyright {
+	font-size: 0.9em;
+	margin-top: 2em;
 }
 
 .contact-form {
-	width: 60%;
+	width: 50%;
 	float: right; 
+
 }
 
+
+//
 // social media footer
+//
 
 .sm {
 	//float: left;
@@ -116,8 +202,8 @@
 
 	li{
 		list-style-type: none;
-		width: 40px;
-		height: 40px;
+		width: 35px;
+		height: 35px;
 		float: left;
 		margin-right: 20px;
 	}
@@ -125,7 +211,60 @@
 }
 
 
+//
+// contact form 
+//
 
+.contact-pointer {
+	position: absolute;
+	margin-left: 535px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 25px 20px 0 20px;
+	border-color: $gamma-ui-color transparent transparent transparent;
+}
+
+#form2 {
+	p {
+		margin-bottom: 1em;
+		label {
+			padding-top: 0px;
+		}
+	}
+}
+
+.success {
+	font-size: 1.4em;
+	font-family: $alpha-font-family;
+}
+
+
+//
+// back to top
+//
+
+
+.endline {
+	border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+
+.back-to-top {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: lighten($alpha-ui-color,5);
+	width: 200px;
+	padding: 0.8em;
+	border-radius: $radius;
+	margin-bottom: 1.5em;
+
+	p {
+		color: $beta-text-color;
+	}
+}
 
 
 

@@ -5,6 +5,7 @@
 .main-nav {
 	float: left;
 	width: 100%;
+	font-size: 1.05em;
 
 	ul {
 		@extend %clearfix;
@@ -14,7 +15,7 @@
 	}
 
 	a {
-		color: lighten($alpha-text-color,50);
+		color: $epsilon-ui-color;
 		text-decoration: none;
 		font-weight: $beta-font-weight;
 	}

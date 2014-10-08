@@ -69,7 +69,7 @@ var pixelRatio = !!window.devicePixelRatio ? window.devicePixelRatio : 1;
 // have already loaded, we'll jump in as soon as possible.
 $(window).on("load", function() {
     if (pixelRatio > 1) {
-        $('img').each(function() {
+        $('.retina').each(function() {
  
             // Very naive replacement that assumes no dots in file names.
             $(this).attr('src', $(this).attr('src').replace(".","@2x."));
