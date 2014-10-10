@@ -7,7 +7,7 @@
 			</li>
 		{/iteration:navigation}
 		<li>
-			<a href="#">Contact</a>
+			<a href="#contact">Contact</a>
 		</li>
 	</ul>
 {/option:navigation}

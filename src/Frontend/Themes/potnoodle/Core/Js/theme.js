@@ -56,6 +56,9 @@ jsTheme.forms =
 
 };
 
+
+
+
 $(jsTheme.init);
 
 
@@ -75,6 +78,32 @@ $(window).on("load", function() {
             $(this).attr('src', $(this).attr('src').replace(".","@2x."));
         });
     }
+
+
+
+	$(function() {
+	    $('.main-nav ul a').bind('click',function(event){
+	        var $anchor = $(this);
+	 
+	        $('html, body').animate({
+	            scrollTop: $($anchor.attr('href')).offset().top + "px"
+	        }, 1000);
+	        event.preventDefault();
+	    });
+	});
+
+	$(function() {
+	    $('.back-to-top a').bind('click',function(event){
+	        var $anchor = $(this);
+	 
+	        $('html, body').animate({
+	            scrollTop: $($anchor.attr('href')).offset().top + "px"
+	        }, 1000);
+	        event.preventDefault();
+	    });
+	});
+
+
 });
 
 

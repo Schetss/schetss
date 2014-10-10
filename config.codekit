@@ -56,17 +56,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/apple-touch-icon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4154,
-		"inputAbbreviatedPath": "\/apple-touch-icon.png",
-		"outputAbbreviatedPath": "\/apple-touch-icon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/autoload.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -8422,6 +8411,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/src\/Frontend\/Cache\/CompiledTemplates\/c90297b718dada234ea48270359d5c48_HeaderOver.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Cache\/CompiledTemplates\/c90297b718dada234ea48270359d5c48_HeaderOver.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/src\/Frontend\/Cache\/CompiledTemplates\/cbfcfa09cd1e080b6b20e7e711a151c4_ce690c16dd2a86f95e5933a263cea26d.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9226,6 +9224,28 @@
 		"initialSize": 274791,
 		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/blog\/images\/source\/vrd-nl.jpg",
 		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/blog\/images\/source\/vrd-nl.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/Profile_2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11625,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/Profile_2.jpg",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/Profile_2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/userfiles\/images\/Profile_2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.04366e+06,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/Profile_2.jpg",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/Profile_2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -10552,15 +10572,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/theme\/modules\/_projecten 2.scss": {
+	"\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/theme\/modules\/_overons.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/theme\/modules\/_projecten 2.scss",
-		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/theme\/css\/_projecten 2.css",
+		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/theme\/modules\/_overons.scss",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/theme\/css\/_overons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -10947,17 +10967,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/tile.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8827,
-		"inputAbbreviatedPath": "\/tile.png",
-		"outputAbbreviatedPath": "\/tile.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/tools\/README.md": {
 		"enableFootnoteSupport": 0,

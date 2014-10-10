@@ -6,28 +6,29 @@
 			<p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser to improve your experience.</p>
 		</div>
 	<![endif]-->
-	
-	{* Header *}
-	{include:Core/Layout/Templates/HeaderProjecten.tpl}
+	<section id="sitetop">
+		{* Header *}
+		{include:Core/Layout/Templates/HeaderProjecten.tpl}
+	</section>
 
-		<main id="main" class="holder main-holder" role="main">
-			<div class="row">
-				<div class="main">
+	<main id="main" class="holder main-holder" role="main">
+		<div class="row">
+			<div class="main">
 
-					{* Main position *}
-					{option:positionMain}
-						{iteration:positionMain}
-						{option:!positionMain.blockIsHTML}
-							{$positionMain.blockContent}
-						{/option:!positionMain.blockIsHTML}
-						{option:positionMain.blockIsHTML}
-							{$positionMain.blockContent}
-						{/option:positionMain.blockIsHTML}
-						{/iteration:positionMain}
-					{/option:positionMain}
-				</div>
+				{* Main position *}
+				{option:positionMain}
+					{iteration:positionMain}
+					{option:!positionMain.blockIsHTML}
+						{$positionMain.blockContent}
+					{/option:!positionMain.blockIsHTML}
+					{option:positionMain.blockIsHTML}
+						{$positionMain.blockContent}
+					{/option:positionMain.blockIsHTML}
+					{/iteration:positionMain}
+				{/option:positionMain}
 			</div>
-		</main>
+		</div>
+	</main>
 
 
 	{* Footer *}

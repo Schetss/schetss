@@ -1,6 +1,7 @@
+<section id="contact">
 <div class="pre-footer">
 	<div class="row">
-		<h3>Wij zijn alvast geïnteresseerd, u ook?</h3>
+		<h3>Wij zijn alvast geïnteresseerd, u ook?</h3></a>
 	</div>
 </div>
 <footer class="holder footer-holder">
@@ -46,9 +47,11 @@
 	</div>
 	<hr class="endline" />
 	<div class="back-to-top">
-		<p>Terug naar boven</p>
+		<a href="#sitetop">Terug naar boven</a>
 	</div>
+
 </footer>
+</section>
 
 <noscript>
 	<div class="holder">

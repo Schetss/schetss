@@ -6,10 +6,11 @@
 			<p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser to improve your experience.</p>
 		</div>
 	<![endif]-->
+	<section id="sitetop">
+		{* Header *}
+		{include:Core/Layout/Templates/Header.tpl}
+	</section>
 	
-	{* Header *}
-	{include:Core/Layout/Templates/Header.tpl}
-
 		<main id="main-home" class="holder main-holder" role="main">
 			<div class="row">
 				<div class="main">
