@@ -70,6 +70,7 @@
 {/iteration:jsFiles}
 
 {* Theme specific Javascript *}
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="{$THEME_URL}/Core/Js/theme.js"></script>
 
 {* Site wide HTML *}

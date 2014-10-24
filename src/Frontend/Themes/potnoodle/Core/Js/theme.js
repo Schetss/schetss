@@ -79,8 +79,6 @@ $(window).on("load", function() {
         });
     }
 
-
-
 	$(function() {
 	    $('.main-nav ul a').bind('click',function(event){
 	        var $anchor = $(this);
@@ -103,7 +101,58 @@ $(window).on("load", function() {
 	    });
 	});
 
-
 });
+
+
+//
+// project overlay
+//
+
+$(document).ready( function(){ 
+
+        		$('.project-overlay').hide();
+        //Toggle 
+        // $('.project-overlay').toggle( 
+        //     //first click 
+        //     function(){ 
+        //         //slide down the list to make it visible 
+        //         $('.project-overlay').slideUp(); 
+        //     }, //Don't forget the comma here! 
+ 
+        //     //second click 
+        //     function(){ 
+        //         //Slide up the list to hide it 
+        //         $('.project-overlay').slideDown(); 
+        //     } 
+        // ); 
+ 
+        // //Hover simple 
+        // $('.project-article').hover( 
+        //     //mouseover 
+        //     function(){ 
+        //         $(this).css('color', 'blue') 
+        //     }, //don't forget the comma here! 
+ 
+        //     //mouseout 
+        //     function(){ 
+        //         $(this).css('color', 'red') 
+        //     } 
+        // ); 
+ 
+        //Hover - more complex 
+        $('.project-article').hover( 
+            //Mouseover function 
+            function(){ 
+                $(this).find('.project-overlay').slideDown(); 
+            }, //Don't forget the comma here! 
+ 
+            //Mouseout function 
+            function(){ 
+               $(this).find('.project-overlay').slideUp(); 
+            } 
+        ); 
+ 
+ 
+    }); 
 
 
