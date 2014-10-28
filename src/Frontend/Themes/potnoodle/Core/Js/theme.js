@@ -101,6 +101,27 @@ $(window).on("load", function() {
 	    });
 	});
 
+
+	//
+	// function to get identifier
+	//
+
+
+	$(function() {
+	   var iden_id = window.location.search.split('?identifier=')[1];
+		if(iden_id === "contact") 
+		{
+			$(function() {
+		        var $anchor = $("#contact");
+		 
+		        $('html, body').animate({
+		            scrollTop: $($anchor).offset().top + "px"
+		        }, 1000);
+		        event.preventDefault();
+			}); 
+		}
+	 });
+
 });
 
 
@@ -110,37 +131,9 @@ $(window).on("load", function() {
 
 $(document).ready( function(){ 
 
-        		$('.project-overlay').hide();
-        //Toggle 
-        // $('.project-overlay').toggle( 
-        //     //first click 
-        //     function(){ 
-        //         //slide down the list to make it visible 
-        //         $('.project-overlay').slideUp(); 
-        //     }, //Don't forget the comma here! 
- 
-        //     //second click 
-        //     function(){ 
-        //         //Slide up the list to hide it 
-        //         $('.project-overlay').slideDown(); 
-        //     } 
-        // ); 
- 
-        // //Hover simple 
-        // $('.project-article').hover( 
-        //     //mouseover 
-        //     function(){ 
-        //         $(this).css('color', 'blue') 
-        //     }, //don't forget the comma here! 
- 
-        //     //mouseout 
-        //     function(){ 
-        //         $(this).css('color', 'red') 
-        //     } 
-        // ); 
- 
-        //Hover - more complex 
-        $('.project-article').hover( 
+	$('.project-overlay').hide();
+        
+ 	$('.project-article').hover( 
             //Mouseover function 
             function(){ 
                 $(this).find('.project-overlay').slideDown(); 
@@ -150,9 +143,9 @@ $(document).ready( function(){
             function(){ 
                $(this).find('.project-overlay').slideUp(); 
             } 
-        ); 
+    ); 
+
  
- 
-    }); 
+}); 
 
 

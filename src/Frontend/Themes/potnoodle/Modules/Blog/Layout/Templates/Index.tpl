@@ -3,7 +3,7 @@
 	- {$items}: contains an array with all posts, each element contains data about the post
 *}
 
-<section>
+<section class="projects">
 	{option:!items}
 		<p>{$msgBlogNoItems}</p>
 	{/option:!items}

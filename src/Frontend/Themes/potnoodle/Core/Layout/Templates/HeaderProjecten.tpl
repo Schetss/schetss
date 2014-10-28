@@ -32,5 +32,12 @@
 			<h1>{$page.title}</h1>
 		</header>
 	{/option:!hideContentTitle}
+
+	{option:item.title}
+		<header class="mainTitle">
+			<h1>{$item.title}</h1>
+		</header>
+	{/option:item.title}
+
 </div>
 </header>

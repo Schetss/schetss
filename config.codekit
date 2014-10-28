@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "17945",
+"creatorBuild": "18027",
 "files": {
 	"\/app\/AppKernel.php": {
 		"fileType": 8192,
@@ -55,6 +55,72 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/apple-touch-icon-114x114-precomposed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1806,
+		"inputAbbreviatedPath": "\/apple-touch-icon-114x114-precomposed.png",
+		"outputAbbreviatedPath": "\/apple-touch-icon-114x114-precomposed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/apple-touch-icon-144x144-precomposed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2370,
+		"inputAbbreviatedPath": "\/apple-touch-icon-144x144-precomposed.png",
+		"outputAbbreviatedPath": "\/apple-touch-icon-144x144-precomposed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/apple-touch-icon-57x57-precomposed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1014,
+		"inputAbbreviatedPath": "\/apple-touch-icon-57x57-precomposed.png",
+		"outputAbbreviatedPath": "\/apple-touch-icon-57x57-precomposed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/apple-touch-icon-72x72-precomposed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1189,
+		"inputAbbreviatedPath": "\/apple-touch-icon-72x72-precomposed.png",
+		"outputAbbreviatedPath": "\/apple-touch-icon-72x72-precomposed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/apple-touch-icon-precomposed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1806,
+		"inputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
+		"outputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/apple-touch-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1014,
+		"inputAbbreviatedPath": "\/apple-touch-icon.png",
+		"outputAbbreviatedPath": "\/apple-touch-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/autoload.php": {
 		"fileType": 8192,
@@ -125,6 +191,17 @@
 		"outputAbbreviatedPath": "\/CHANGELOG.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 627,
+		"inputAbbreviatedPath": "\/favicon.png",
+		"outputAbbreviatedPath": "\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/index.php": {
 		"fileType": 8192,
@@ -368,11 +445,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/src\/Backend\/Cache\/CompiledTemplates\/59e5acf6691bfc60a63686f48fc645d7_Edit.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Backend\/Cache\/CompiledTemplates\/59e5acf6691bfc60a63686f48fc645d7_Edit.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/src\/Backend\/Cache\/CompiledTemplates\/62fc80369d05b4a7d7b67545cbfb265f_Analyse.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/Backend\/Cache\/CompiledTemplates\/62fc80369d05b4a7d7b67545cbfb265f_Analyse.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/Backend\/Cache\/CompiledTemplates\/73a53f84226fa5ca912d6b5e14a3cca7_DataDetails.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Backend\/Cache\/CompiledTemplates\/73a53f84226fa5ca912d6b5e14a3cca7_DataDetails.tpl.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -413,6 +508,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/src\/Backend\/Cache\/CompiledTemplates\/912eee2142156bd9c43bd8c2d1dd09ea_Index.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Backend\/Cache\/CompiledTemplates\/912eee2142156bd9c43bd8c2d1dd09ea_Index.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/src\/Backend\/Cache\/CompiledTemplates\/93ec1115d3cc601d5e49fdd5d07c1892_Themes.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -436,6 +540,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/Backend\/Cache\/CompiledTemplates\/994b5920ea7f34ee4484614e3b5206d9_Footer.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/Backend\/Cache\/CompiledTemplates\/99be4cc39814e5574f8b0b86403f4afa_Index.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Backend\/Cache\/CompiledTemplates\/99be4cc39814e5574f8b0b86403f4afa_Index.tpl.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -548,6 +661,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/src\/Backend\/Cache\/CompiledTemplates\/d8b5dfcefdb8db9ee60b293a2869c8c7_Data.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Backend\/Cache\/CompiledTemplates\/d8b5dfcefdb8db9ee60b293a2869c8c7_Data.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/src\/Backend\/Cache\/CompiledTemplates\/d9f781f27a92921641ab06f8e811c1b5_Edit.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -607,6 +729,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/Backend\/Cache\/CompiledTemplates\/fc3ac2d76cf6f67a9f521b0ccb2a7667_Index.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/Backend\/Cache\/CompiledTemplates\/fca55a9ccadb299c8ea6424e21aa200b_Field.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Backend\/Cache\/CompiledTemplates\/fca55a9ccadb299c8ea6424e21aa200b_Field.tpl.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -8249,6 +8380,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/src\/Frontend\/Cache\/CompiledTemplates\/4a29a65cd05a9bbd9925f377a542e049_f8da7312f813a49617c2303240f2cb75.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Cache\/CompiledTemplates\/4a29a65cd05a9bbd9925f377a542e049_f8da7312f813a49617c2303240f2cb75.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/Frontend\/Cache\/CompiledTemplates\/4cd4ff794409968ebc910789b239f23d_58b2f79879d2b4d82a8bc9ef1e024c25.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Cache\/CompiledTemplates\/4cd4ff794409968ebc910789b239f23d_58b2f79879d2b4d82a8bc9ef1e024c25.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/src\/Frontend\/Cache\/CompiledTemplates\/5475a6a386efff9a10b11c6274a43e66_Navigation.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -8434,6 +8583,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/Frontend\/Cache\/CompiledTemplates\/d1e072adba68b0f1459018c69b3ea446_Cookies.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/Frontend\/Cache\/CompiledTemplates\/d390ed63bd60982c99639a6b7b1f2500_db1a177920bf11cba10cf2d9723c2763.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Cache\/CompiledTemplates\/d390ed63bd60982c99639a6b7b1f2500_db1a177920bf11cba10cf2d9723c2763.tpl.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -9239,6 +9397,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/success.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8213,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/success.png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/success.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/src\/Frontend\/Files\/userfiles\/images\/Profile_2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -9246,6 +9415,28 @@
 		"initialSize": 1.04366e+06,
 		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/Profile_2.jpg",
 		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/Profile_2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/userfiles\/images\/Success@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52909,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/Success@2x.png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/Success@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/userfiles\/images\/Success_kid-03.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22340,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/Success_kid-03.png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/Success_kid-03.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -10204,6 +10395,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/patterns\/  .scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/patterns\/  .scss",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/css\/  .css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/patterns\/_alerts.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -10213,22 +10420,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/patterns\/_alerts.scss",
 		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/css\/_alerts.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/patterns\/_buttons.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/patterns\/_buttons.scss",
-		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/css\/_buttons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -10967,6 +11158,28 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/thumbnail.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2208,
+		"inputAbbreviatedPath": "\/thumbnail.png",
+		"outputAbbreviatedPath": "\/thumbnail.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/tile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1806,
+		"inputAbbreviatedPath": "\/tile.png",
+		"outputAbbreviatedPath": "\/tile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/tools\/README.md": {
 		"enableFootnoteSupport": 0,

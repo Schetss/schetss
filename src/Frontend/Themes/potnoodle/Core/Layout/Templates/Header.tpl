@@ -1,30 +1,53 @@
-<div id="wrapper">
-	<header class="holder header-holder">
+<header class="holder header-holder">
+
+	<div class="main-header">
+		<div class="main-header-image">
+		{option:!item.image}
+			{* Image position *}
+			{option:positionImage}
+				{iteration:positionImage}
+				{option:!positionImage.blockIsHTML}
+					{$positionImage.blockContent}
+				{/option:!positionImage.blockIsHTML}
+				{option:positionImage.blockIsHTML}
+					{$positionImage.blockContent}
+				{/option:positionImage.blockIsHTML}
+				{/iteration:positionImage}
+			{/option:positionImage}
+			{/option:!item.image}
+			{option:item.image}
+				<img src="{$FRONTEND_FILES_URL}/blog/images/source/{$item.image}" alt="{$item.title}" itemprop="image" />
+			{/option:item.image}
+		</div>	
+		<div class="image-overlay"></div>
+
 		<div class="header-left"></div><div class="header-right"></div>
+		
 		<div class="row header-row">
 			<div class="header">
-					{* SEO logo: H1 for home, p for other pages *}
+				{* SEO logo: H1 for home, p for other pages *}
 
-					<a title="{$siteTitle}" href="/"><img class="logo retina" src="/src/Frontend/Core/Layout/images/logo.png" alt="logo" /></a>
-			
-					{* Navigation *}
-					<nav class="main-nav">
-						{$var|getnavigation:'page':0:1}
-					</nav>
+				<a title="{$siteTitle}" href="/"><img class="logo retina" src="/src/Frontend/Core/Layout/images/logo.png" alt="logo" /></a>
+		
+				{* Navigation *}
+				<nav class="main-nav">
+					{$var|getnavigation:'page':0:1}
+				</nav>
 
-					{* Meta *}
-					<nav>
-						{$var|getnavigation:'meta':0:1}
-					</nav>
-
-					{* Languages *}
-					{option:languages}
-						<nav>
-							{include:Core/Layout/Templates/Languages.tpl}
-						</nav>
-					{/option:languages}
 			</div>
 		</div>
-	</header>
 
-
+		<div class="row main-header-title">
+			{* Page title *}
+			<header>
+				{option:!hideContentTitle}
+					<h1 class="main-title">{$page.title}</h1>
+				{/option:!hideContentTitle}
+				{option:item.title}
+					<h1 class="main-title">{$item.title}</h1>
+				{/option:item.title}
+			</header>
+			
+		</div>
+	</div>
+</header>
