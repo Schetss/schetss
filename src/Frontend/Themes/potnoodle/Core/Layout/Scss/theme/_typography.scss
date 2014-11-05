@@ -46,14 +46,10 @@ pre {
 }
 
 ul,
-ol,
-blockquote {
+ol {
 	padding-left: 1em;
 }
 
-blockquote {
-	font-style: italic;
-}
 
 table {
 	text-align: left;
@@ -127,3 +123,68 @@ a {
 		background-size: em($alpha-baseline-grid) em($alpha-baseline-grid); // calculate the baselinegrid in em's
 	}
 }
+
+
+//
+// Blog
+// 
+
+.article {
+	@include margin-tb(0,2);
+	
+	p {
+		width: 73%;
+		float: right;
+		font-size: 1.4em;
+		line-height: 1.8em;
+		font-family: $beta-font-family;
+
+		img {
+			width: 136.9%;
+			margin-left: -36.9%;
+			max-width: none;
+		}
+	}
+
+	h2 {
+		color: $alpha-ui-color;
+		width: 73%;
+		float: right;
+		@include padding-tb(1,0.3);
+	}
+
+	h3 {
+		color: $alpha-ui-color;
+		width: 73%;
+		float: right;
+		@include padding-tb(1,0.3);
+	}
+
+	// p:first-child {
+	// 	font-size: 1.2em;
+	// 	width: 25%;
+	// 	float: left;
+	// 	font-family: $alpha-font-family;
+	// }
+
+	blockquote {
+		font-style: italic;
+		margin-top: 0.32em;
+		padding-left: 1em;
+		font-size: 0.85em;
+		width: 24%;
+		float: left;
+		font-family: $alpha-font-family;
+		border-left: 1px solid $gamma-ui-color;
+		p {
+			width: 100%;
+		}
+	}
+}
+
+
+
+
+
+
+

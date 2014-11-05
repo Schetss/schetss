@@ -764,7 +764,7 @@ article, aside, figure, footer, header, hgroup, nav, section, main {
   border: 1px solid #FFCD14;
   margin-left: -1px; }
 .pagination span {
-  color: #f8fbf0; }
+  color: #f8f8f8; }
 
 .pagination-centered a,
 .pagination-centered span {
@@ -772,7 +772,7 @@ article, aside, figure, footer, header, hgroup, nav, section, main {
   border: 1px solid #FFCD14;
   margin-left: -1px; }
 .pagination-centered span {
-  color: #f8fbf0; }
+  color: #f8f8f8; }
 .pagination-centered .inner {
   float: left;
   position: relative;
@@ -891,12 +891,8 @@ pre {
   padding-bottom: 0.875em; }
 
 ul,
-ol,
-blockquote {
+ol {
   padding-left: 1em; }
-
-blockquote {
-  font-style: italic; }
 
 table {
   text-align: left;
@@ -940,6 +936,43 @@ a {
   a:hover, a:active {
     outline: 0; }
 
+.article {
+  margin-top: 0em;
+  margin-bottom: 3em; }
+  .article p {
+    width: 73%;
+    float: right;
+    font-size: 1.4em;
+    line-height: 1.8em;
+    font-family: "ff-tisa-web-pro", serif; }
+    .article p img {
+      width: 136.9%;
+      margin-left: -36.9%;
+      max-width: none; }
+  .article h2 {
+    color: #376EB6;
+    width: 73%;
+    float: right;
+    padding-top: 1.5em;
+    padding-bottom: 0.45em; }
+  .article h3 {
+    color: #376EB6;
+    width: 73%;
+    float: right;
+    padding-top: 1.5em;
+    padding-bottom: 0.45em; }
+  .article blockquote {
+    font-style: italic;
+    margin-top: 0.32em;
+    padding-left: 1em;
+    font-size: 0.85em;
+    width: 24%;
+    float: left;
+    font-family: "proxima-nova", arial, sans-serif;
+    border-left: 1px solid #FFCD14; }
+    .article blockquote p {
+      width: 100%; }
+
 form {
   padding: 0 0 0.875em; }
 
@@ -976,7 +1009,7 @@ textarea {
   -webkit-appearance: none;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  background-color: #f8fbf0;
+  background-color: #f8f8f8;
   border-radius: 5px;
   border: 0;
   color: #8d8a77;
@@ -1114,6 +1147,14 @@ button {
 
 \*-----------------------------------------------------------*/
 /* endif */
+.row {
+  padding-left: 20px;
+  padding-right: 20px; }
+  @media (min-width: 60em) {
+    .row {
+      padding-left: 0px;
+      padding-right: 0px; } }
+
 .holder {
   padding-top: 1.5em;
   padding-bottom: 0em; }
@@ -1126,8 +1167,10 @@ button {
   .header-holder {
     padding-top: 0em; } }
 .header-holder h1 {
-  padding-top: 4.8em;
-  padding-bottom: 1.5em; }
+  color: #f8f8f8;
+  padding-top: 3.3em;
+  padding-bottom: 0.75em;
+  line-height: 1.5em; }
 
 .header {
   padding-top: 0.9em;
@@ -1169,12 +1212,25 @@ button {
   margin-top: -100px;
   z-index: -1; }
 
+.image-overlay {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.01) 20%, black 130%);
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.01) 20%, black 130%);
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0.01) 20%, black 130%);
+  background: linear-gradient(rgba(0, 0, 0, 0.01) 20%, black 130%);
+  background: -ms-gradient(rgba(0, 0, 0, 0.01) 20%, black 130%);
+  opacity: 0.6;
+  height: 600px;
+  position: absolute;
+  z-index: 9999;
+  width: 100%;
+  display: block; }
+
 .header-left {
   float: left;
   position: absolute;
   width: 25%;
   opacity: 0.9;
-  border-top: 4.4em solid #f8fbf0;
+  border-top: 4.4em solid #376EB6;
   border-right: 50px solid transparent;
   height: 0;
   width: 30%; }
@@ -1182,15 +1238,15 @@ button {
 .header-right {
   position: absolute;
   right: 0;
-  opacity: 0.9;
-  border-bottom: 4.4em solid #f8fbf0;
+  opacity: 0.8;
+  border-bottom: 4.4em solid #FFCD14;
   border-left: 50px solid transparent;
   height: 0;
   width: 70%; }
 
 .main {
   border-top: 1px solid #376EB6;
-  background-color: #f8fbf0; }
+  background-color: #f8f8f8; }
 
 .main-holder {
   padding-top: 0em;
@@ -1309,7 +1365,7 @@ button {
     padding-bottom: 0.75em;
     padding-left: 20px;
     padding-right: 20px;
-    color: #f8fbf0;
+    color: #f8f8f8;
     width: 100%;
     display: block; }
   .back-to-top a:hover, .back-to-top a:active {
@@ -1335,7 +1391,7 @@ button {
     padding-top: 0.1547497047em;
     padding-bottom: 0.1547497047em; }
   .intro p {
-    color: #f8fbf0;
+    color: #f8f8f8;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1em;
@@ -1358,16 +1414,16 @@ button {
       padding-right: 10px; } }
 
 .home-header {
-  color: #f8fbf0; }
+  color: #f8f8f8; }
 
 .home-button {
-  border: 1px solid #f8fbf0;
+  border: 1px solid #f8f8f8;
   border-radius: 12px;
   width: 250px;
   padding-left: 1em; }
   .home-button p {
     font-size: 1.5em;
-    color: #f8fbf0;
+    color: #f8f8f8;
     padding-top: 0;
     padding-bottom: 0; }
 
@@ -1399,7 +1455,7 @@ button {
   padding-top: 4.5em;
   padding-bottom: 0em;
   text-align: center;
-  color: #f8fbf0; }
+  color: #f8f8f8; }
   .project-overlay hr {
     margin-left: auto;
     margin-right: auto;
@@ -1419,9 +1475,9 @@ button {
   padding-right: 10px; }
 
 .v-styleguide .section-title {
-  color: #f8fbf0;
+  color: #f8f8f8;
   font-weight: 700;
-  border-bottom: 3px solid #f8fbf0;
+  border-bottom: 3px solid #f8f8f8;
   margin-bottom: 0.875em;
   font-size: 1.414em;
   line-height: 1.2376237624;
@@ -1430,7 +1486,7 @@ button {
 
 .v-styleguide .scss {
   display: inline-block;
-  color: #f8fbf0;
+  color: #f8f8f8;
   background: #F0F0F0;
   border: 1px solid #4DA4DB;
   border-radius: 5px;
@@ -1611,7 +1667,7 @@ button {
 
 .overons-part2 {
   background-color: #3A3931;
-  color: #f8fbf0; }
+  color: #f8f8f8; }
 
 .overons-left {
   width: 45%;

@@ -10,8 +10,9 @@ variables that are available:
 	<meta itemprop="interactionCount" content="UserComments:{$commentsCount}">
 	<meta itemprop="author" content="{$item.user_id|usersetting:'nickname'}">
 
-	<div itemprop="articlecontent">
+	<div itemprop="articlecontent" class="article">
 		{$item.text}
+		<div class="clear"></div>
 	</div>
 	<footer>
 	<!-- 	<p>

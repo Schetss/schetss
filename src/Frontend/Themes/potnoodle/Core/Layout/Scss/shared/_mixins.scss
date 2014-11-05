@@ -136,3 +136,20 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+
+
+
+//
+// gradient
+//
+
+@mixin gradient-linear-transparant($color, $start) {
+	background: -webkit-linear-gradient(rgba(0,0,0,0.01) $start, $color 130%);
+	background: -o-linear-gradient(rgba(0,0,0,0.01) $start, $color 130%);
+	background: -moz-linear-gradient(rgba(0,0,0,0.01) $start, $color 130%);
+	background: linear-gradient(rgba(0,0,0,0.01) $start, $color 130%);
+	background: -ms-gradient(rgba(0,0,0,0.01) $start, $color 130%);
+}
+
+

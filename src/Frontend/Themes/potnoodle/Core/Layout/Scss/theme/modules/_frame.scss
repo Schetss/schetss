@@ -1,3 +1,11 @@
+.row {
+	@include px-padding-lr(2,2);
+
+	@include mq($bp4) {
+		@include px-padding-lr(0,0);
+	}
+}
+
 //
 // Frame
 //
@@ -24,7 +32,9 @@
 
 	h1 
 	{
-		@include padding-tb(3.2,1);
+		color: $beta-text-color;
+		@include padding-tb(2.2,0.5 );
+		line-height: 1.5em;
 	}
 
 }
@@ -67,7 +77,6 @@
 // header image
 //
 
-
 .main-header-image {
 	position: fixed;
 	overflow: hidden;
@@ -77,7 +86,15 @@
 	z-index: -1;
 }
 
-
+.image-overlay {
+	@include gradient-linear-transparant(black, 20%);
+	opacity: 0.6;
+	height: 600px;
+	position: absolute;
+	z-index: 9999;
+	width: 100%;
+	display: block;
+}
 
 
 
@@ -90,7 +107,7 @@
 	position: absolute; 
 	width: 25%;
 	opacity: 0.9;
-	border-top: 4.4em solid $beta-text-color;
+	border-top: 4.4em solid $alpha-ui-color;
 	border-right: 50px solid transparent;
 	height: 0;
 	width: 30%;
@@ -100,8 +117,8 @@
 .header-right {
  	position: absolute;
  	right: 0;  
-	opacity: 0.9;
-	border-bottom: 4.4em solid $beta-text-color;
+	opacity: 0.8;
+	border-bottom: 4.4em solid $gamma-ui-color;
 	border-left: 50px solid transparent;
 	height: 0;
 	width: 70%;

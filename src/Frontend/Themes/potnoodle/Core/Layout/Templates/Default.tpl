@@ -9,14 +9,38 @@
 	<main id="main" class="holder main-holder" role="main">
 		<div class="main">
 			<div class="row">
-				<!-- 
-				{* Page title *}
-				{option:!hideContentTitle}
-					<header class="mainTitle">
-						<h1>{$page.title}</h1>
-					</header>
-				{/option:!hideContentTitle}
- -->
+
+				<div cladd="content-left">
+					{* Left position *}
+					{option:positionLeft}
+						{iteration:positionLeft}
+						{option:!positionLeft.blockIsHTML}
+							{$positionLeft.blockContent}
+						{/option:!positionLeft.blockIsHTML}
+						{option:positionLeft.blockIsHTML}
+							{$positionLeft.blockContent}
+						{/option:positionLeft.blockIsHTML}
+						{/iteration:positionLeft}
+					{/option:positionLeft}
+				</div>
+
+
+				<div cladd="content-right">
+					{* Right position *}
+					{option:positionRight}
+						{iteration:positionRight}
+						{option:!positionRight.blockIsHTML}
+							{$positionRight.blockContent}
+						{/option:!positionRight.blockIsHTML}
+						{option:positionRight.blockIsHTML}
+							{$positionRight.blockContent}
+						{/option:positionRight.blockIsHTML}
+						{/iteration:positionRight}
+					{/option:positionRight}
+				</div>
+
+
+
 				{* Main position *}
 				{option:positionMain}
 					{iteration:positionMain}
