@@ -8,9 +8,26 @@
 
 	<main id="main" class="holder main-holder" role="main">
 		<div class="main">
-			<div class="row">
+		
 
-				<div cladd="content-left">
+
+			<div class="content-right">
+				<div class="row">
+					{* Right position *}
+					{option:positionRight}
+						{iteration:positionRight}
+						{option:!positionRight.blockIsHTML}
+							{$positionRight.blockContent}
+						{/option:!positionRight.blockIsHTML}
+						{option:positionRight.blockIsHTML}
+							{$positionRight.blockContent}
+						{/option:positionRight.blockIsHTML}
+						{/iteration:positionRight}
+					{/option:positionRight}
+					</div>
+				</div>
+			<div class="row">
+				<div class="content-left">
 					{* Left position *}
 					{option:positionLeft}
 						{iteration:positionLeft}
@@ -24,35 +41,35 @@
 					{/option:positionLeft}
 				</div>
 
-
-				<div cladd="content-right">
-					{* Right position *}
-					{option:positionRight}
-						{iteration:positionRight}
-						{option:!positionRight.blockIsHTML}
-							{$positionRight.blockContent}
-						{/option:!positionRight.blockIsHTML}
-						{option:positionRight.blockIsHTML}
-							{$positionRight.blockContent}
-						{/option:positionRight.blockIsHTML}
-						{/iteration:positionRight}
-					{/option:positionRight}
-				</div>
-
-
-
-				{* Main position *}
-				{option:positionMain}
-					{iteration:positionMain}
-					{option:!positionMain.blockIsHTML}
-						{$positionMain.blockContent}
-					{/option:!positionMain.blockIsHTML}
-					{option:positionMain.blockIsHTML}
-						{$positionMain.blockContent}
-					{/option:positionMain.blockIsHTML}
-					{/iteration:positionMain}
-				{/option:positionMain}
 			</div>
+			<div class="row">
+				<div class="content">
+					{* Main position *}
+					{option:positionMain}
+						{iteration:positionMain}
+						{option:!positionMain.blockIsHTML}
+							{$positionMain.blockContent}
+						{/option:!positionMain.blockIsHTML}
+						{option:positionMain.blockIsHTML}
+							{$positionMain.blockContent}
+						{/option:positionMain.blockIsHTML}
+						{/iteration:positionMain}
+					{/option:positionMain}
+				</div>
+			</div>
+
+				{* Main2 position *}
+				{option:positionMain2}
+					{iteration:positionMain2}
+					{option:!positionMain2.blockIsHTML}
+						{$positionMain2.blockContent}
+					{/option:!positionMain2.blockIsHTML}
+					{option:positionMain2.blockIsHTML}
+						{$positionMain2.blockContent}
+					{/option:positionMain2.blockIsHTML}
+					{/iteration:positionMain2}
+				{/option:positionMain2}
+		
 		</div>
 	</main>
 

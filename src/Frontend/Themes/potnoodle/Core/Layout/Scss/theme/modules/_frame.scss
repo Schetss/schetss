@@ -33,7 +33,7 @@
 	h1 
 	{
 		color: $beta-text-color;
-		@include padding-tb(2.2,0.5 );
+		@include padding-tb(3,0.5 );
 		line-height: 1.5em;
 	}
 
@@ -88,7 +88,7 @@
 
 .image-overlay {
 	@include gradient-linear-transparant(black, 20%);
-	opacity: 0.6;
+	opacity: 0.4;
 	height: 600px;
 	position: absolute;
 	z-index: 9999;
@@ -238,7 +238,6 @@
 	}
 
 }
-
 
 //
 // contact form 
