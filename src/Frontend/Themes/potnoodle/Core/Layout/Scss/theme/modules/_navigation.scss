@@ -34,9 +34,40 @@
 
 .main-nav,
 .mobile-nav .main-nav {
+	margin-top: 0.85em;
+	width: 100%;
+
+	ul {
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+
+	li {
+		@include background-opacity($beta-text-color, 0.9);
+		//border-top: 1px solid $gamma-ui-color;
+		//@include padding-tb(0.4,0.4);
+	}
+
+	a {
+		display: block;
+		width: 100%;
+		@include padding-tb(0.4,0.4);
+		@include px-padding-lr(1,0);
+	}
+
+	.selected {
+			@include background-opacity($gamma-ui-color, 0.8);
+		a {
+		color: $beta-text-color;
+		}
+	}
+
+
+
+
 	@include mq($bp3) {
 		display: block !important;
-		margin-top: 0.8em;
+		margin-top: 0.4em;
 		width: auto;
 		float: right;
 
@@ -45,20 +76,31 @@
 			@include text-dimensions(14,1,0);
 		}
 
-		li {
+		li, li.selected {
+			background-color: transparent;
 			@include px-margin-lr(2,0);
+		}
+
+
+		a:hover,
+		{
+			color: lighten($alpha-text-color,20);
 		}
 	}
 }
 
 .main-nav-trigger {
+	position: absolute;
+	cursor: pointer;
 	display: block;
-	float: right;
-	width: 2.1em;
-	height: 2.1em;
-	text-indent: -9999px;
-	@include text-dimensions($alpha-font-size,1,1);
-	@include svg-bg("../img/icon-menu", ".png", $alpha-text-color, 50%, no-repeat);
+	margin-right: 1.2em;
+	right: 0;
+	width: 4em;
+	height: 4em;
+	z-index: 999;
+	//text-indent: -9999px;
+	//@include text-dimensions($alpha-font-size,2,2);
+	@include svg-bg("../img/icon-menu", ".png", transparent, 10%, no-repeat, 2em);
 
 	@include mq($bp3) {
 		display: none;
@@ -67,5 +109,5 @@
 
 .svg .trigger-active,
 .trigger-active {
-	background-color: $alpha-link-color;
+	//background-color: $alpha-link-color;
 }

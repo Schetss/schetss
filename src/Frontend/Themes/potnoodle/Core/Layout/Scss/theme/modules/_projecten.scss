@@ -1,5 +1,7 @@
 .projects {
-	padding-bottom: 3em;
+	@include mq($bp3) {
+		padding-bottom: 3em;
+	}
 }
 
 // .project-header{
@@ -7,16 +9,31 @@
 // }
 
 .project-article:nth-child(2) {
-	float: right !important;
+	@include mq($bp3) {
+		float: right !important;
+	}
+}
+
+.project-article:last-child {
+	margin-bottom: 0;
 }
 
 .project-article {
-	float: left;
-	margin-top: 40px;
-	width: 48%;
+	margin-top: 1.5em;
+	margin-bottom: 3em;
+	clear: both;
+	width: 100%;
 	height: 300px;
 	overflow: hidden;
 	position: relative;
+	@include mq($bp3) {
+		float: left;
+		width: 48%;	
+		clear: none;
+		margin-top: 40px;
+		margin-bottom: 0;
+
+	}
 
 	img {
 		min-width: 600px;
@@ -27,13 +44,17 @@
 .project-overlay {
 	top: 0;
 	position: absolute;
-	@include background-opacity(black, 0.7);
+	@include background-opacity(black, 0.5);
 	width: 100%;
 	height: 300px;
 	@include padding-tb(3,0);
 	text-align: center;
 
 	color: $beta-text-color;
+
+	@include mq($bp3) {
+		@include background-opacity(black, 0.7);
+	}
 
 	hr {
 		margin-left: auto;

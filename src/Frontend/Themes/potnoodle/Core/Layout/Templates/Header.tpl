@@ -24,7 +24,7 @@
 
 		<div class="header-left"></div><div class="header-right"></div>
 		
-		<div class="row header-row">
+		<div id="header-row" class="row header-row">
 			<div class="header">
 				{* SEO logo: H1 for home, p for other pages *}
 

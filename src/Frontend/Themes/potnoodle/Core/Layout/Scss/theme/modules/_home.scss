@@ -58,5 +58,115 @@
 	}
 }
 
+//
+// content
+//
+.home-content {
+	position: relative;
+}
 
+.triangle-top {
+	//position: absolute;
+	margin-top: -1.3em;
+	margin-left: 0.2em;
+	top: 0;
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 25px solid $beta-text-color;
+}
+
+.triangle-top2 {
+	margin-bottom: -25px;
+	top: 0;
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 25px solid $beta-text-color;
+	float: right;
+}
+
+
+
+//
+// quote
+//
+.quote-title {
+	font-size: 4em;
+	font-family: $beta-font-family;
+	font-weight: bold;
+	color: darken($beta-text-color, 40);
+}
+.quote-p {
+	margin-top: -2.6em;
+	font-size: 2em;
+	font-family: $beta-font-family;
+	color: darken($beta-text-color, 60);
+	//font-weight: bold;
+	margin-bottom: 0.8em;
+}
+
+//
+// instagram
+//
+
+.home-images {
+	width: 100%;
+	overflow: hidden;
+	height: 600px;
+	position: relative;
+
+	.instagram {
+		position: absolute;
+		//z-index: -1;
+	}
+
+	.row {
+		position: relative;
+		display: block;
+		z-index: 999999;
+	}
+
+	.image-overlay2 {
+		background-color: $alpha-ui-color;
+		opacity: 0.3;
+		height: 600px;
+		position: absolute;
+		z-index: 9999;
+		width: 100%;
+		display: block;
+	}
+
+	.volg-btn {
+		text-align: center;
+		font-size: 1.4em;
+		font-weight: 600;
+		padding: 0.1em;
+		border-radius: $radius;
+		position: absolute;
+		width: 400px;
+		border: 3px solid $gamma-ui-color;
+		top: 0;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		margin-top: 275px;
+		height: 50px;
+		cursor: pointer;
+		z-index: 999999;
+		@include background-opacity($alpha-text-color, 0.7);
+
+		a, a:hover, a:active, a:visited {
+			display: block;
+			width: 100%;
+			height: 100%;
+			text-decoration: none;
+		}
+	}
+
+	
+}
 

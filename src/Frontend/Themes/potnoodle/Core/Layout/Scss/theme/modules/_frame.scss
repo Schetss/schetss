@@ -12,7 +12,7 @@
 
 .holder {
 	//background-color: $beta-text-color;
-	@include padding-tb(1,0);
+	@include padding-tb(0,0);
 
 	@include mq($bp4) {
 		@include padding-tb(0,0);
@@ -33,7 +33,10 @@
 	h1 
 	{
 		color: $beta-text-color;
-		@include padding-tb(3,0.5 );
+		@include padding-tb(1,0.4);
+		@include mq($bp3) {
+			@include padding-tb(3,0.5 );
+		}
 		line-height: 1.5em;
 	}
 
@@ -42,9 +45,9 @@
 
 .header {
 	@include padding-tb(0.6,0.6);
-	@include box-(12,1,1);
+	position: relative;
 
-	@include mq($bp4) {
+	@include mq($bp3) {
 		@include box-(12,1,1);
 	}
 }
@@ -67,6 +70,7 @@
 	}
 
 .logo {
+	@include px-margin-lr(2,0);
 	width: 120px;
 	height: 39px;
 }
@@ -82,8 +86,35 @@
 	overflow: hidden;
 	height: 600px;
 	padding: 0;
-	margin-top:-100px;
+	margin-top:-2em;
 	z-index: -1;
+	p {
+		img {
+			width: 280%;
+			max-width: none;
+			margin-left: -90%;
+		}
+	}
+
+	@include mq($bp3) {
+		margin-top: -3em;
+		p {
+			img {
+				width: 200%;
+				margin-left: -50%;
+			}
+		}
+	}
+
+	@include mq($bp4) {
+		margin-top:-5em;
+		p {
+			img {
+				width: 100%;
+				margin-left: 0;
+			}
+		}
+	}
 }
 
 .image-overlay {
@@ -102,15 +133,25 @@
 // header background
 //
 
+.header-row {
+	top: 0;
+}
+
+
 .header-left {
 	float: left;
 	position: absolute; 
-	width: 25%;
-	opacity: 0.9;
+	opacity: 0.8;
 	border-top: 4.4em solid $alpha-ui-color;
 	border-right: 50px solid transparent;
 	height: 0;
-	width: 30%;
+	width: 65%;
+
+	@include mq($bp3) {
+		width: 30%;
+		
+	}
+
 
 }
 
@@ -121,7 +162,11 @@
 	border-bottom: 4.4em solid $gamma-ui-color;
 	border-left: 50px solid transparent;
 	height: 0;
-	width: 70%;
+	width: 40%;
+
+	@include mq($bp3) {
+		width: 70%;
+	}
 }
 
 
@@ -168,7 +213,7 @@
 .footer-holder {
 	background-color: $alpha-ui-color;
 	color: lighten($alpha-text-color,70);
-
+	position: relative;
 	p {
 		padding: 0;
 	}
@@ -193,8 +238,12 @@
 
 
 .contact-info {
-	width: 39%;
-	float: left;
+	width: 100%;
+	@include mq($bp3) {
+		width: 39%;
+		float: left;
+	}
+
 
 	h5 {
 		font-size: 1.4em;
@@ -209,14 +258,22 @@
 }
 
 .copyright {
-	font-size: 0.9em;
-	margin-top: 2em;
+	display: none;
+	@include mq($bp3) {
+		font-size: 0.9em;
+		margin-top: 2em;
+		display: block;
+	}
 }
 
 .contact-form {
-	width: 50%;
-	float: right; 
-
+	margin-top: 3em;
+	width: 100%;
+	@include mq($bp3) {
+		margin-top: 0em;
+		width: 50%;
+		float: right; 
+	}
 }
 
 
@@ -244,16 +301,31 @@
 //
 
 .contact-pointer {
-	position: absolute;
-	margin-left: 535px;
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 25px 20px 0 20px;
-	border-color: $gamma-ui-color transparent transparent transparent;
+	display: none;
+	@include mq($bp3) {
+		display: block;
+		position: absolute;
+		top:0;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 25px 20px 0 20px;
+		border-color: $gamma-ui-color transparent transparent transparent;
+		margin-left: 400px;
+	}
+	@include mq($bp4){
+		margin-left: 535px;
+	}
 }
 
 #form2 {
+	border-top: 1px solid $gamma-ui-color;
+	padding-top: 3em;
+
+	@include mq($bp3) {
+		padding-top: 0;
+		border: 0;
+	}
 	p {
 		margin-bottom: 1em;
 		label {

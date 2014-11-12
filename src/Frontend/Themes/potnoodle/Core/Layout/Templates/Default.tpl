@@ -8,25 +8,8 @@
 
 	<main id="main" class="holder main-holder" role="main">
 		<div class="main">
-		
-
-
-			<div class="content-right">
-				<div class="row">
-					{* Right position *}
-					{option:positionRight}
-						{iteration:positionRight}
-						{option:!positionRight.blockIsHTML}
-							{$positionRight.blockContent}
-						{/option:!positionRight.blockIsHTML}
-						{option:positionRight.blockIsHTML}
-							{$positionRight.blockContent}
-						{/option:positionRight.blockIsHTML}
-						{/iteration:positionRight}
-					{/option:positionRight}
-					</div>
-				</div>
 			<div class="row">
+
 				<div class="content-left">
 					{* Left position *}
 					{option:positionLeft}
@@ -41,8 +24,7 @@
 					{/option:positionLeft}
 				</div>
 
-			</div>
-			<div class="row">
+
 				<div class="content">
 					{* Main position *}
 					{option:positionMain}

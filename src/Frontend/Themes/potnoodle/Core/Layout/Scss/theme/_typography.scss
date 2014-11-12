@@ -169,15 +169,24 @@ a {
 
 	blockquote {
 		font-style: italic;
-		margin-top: 0.32em;
+		margin-top: 3em;
 		padding-left: 1em;
 		font-size: 0.85em;
 		width: 24%;
 		float: left;
 		font-family: $alpha-font-family;
-		border-left: 1px solid $gamma-ui-color;
+		//border-left: 1px solid $gamma-ui-color;
 		p {
 			width: 100%;
+			a, a:hover, a:active, a:visited {
+				color: $alpha-ui-color;
+			}
+		}
+		img {
+			margin: 0;
+			padding: 0;
+			width: 80%;
+			max-width: none;
 		}
 	}
 }

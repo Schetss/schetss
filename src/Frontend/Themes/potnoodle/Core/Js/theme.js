@@ -5,6 +5,7 @@ var jsTheme =
 	{
 		jsTheme.mobileNav.init();
 		jsTheme.forms.init();
+		jsTheme.mediaQuery.init();
 		//console.log("javascript is locked and loaded!") // for testing purposes. Check your console. Delete after you finished reading this. :-)
 	}
 
@@ -28,9 +29,9 @@ jsTheme.mobileNav =
 	// build mobile nav
 	buildMobileNav: function()
 	{
-		var navHolder = $('.header .inner');
+		var navHolder = $('.main-header .header-row');
 
-		navHolder.prepend('<span class="main-nav-trigger">menu</span>');
+		navHolder.prepend('<span class="main-nav-trigger"></span>');
 
 		var trigger = $('.main-nav-trigger');
 		var nav = $('.main-nav');
@@ -55,6 +56,22 @@ jsTheme.forms =
 	}
 
 };
+
+jsTheme.mediaQuery =
+{
+	init: function()
+	{
+		if ($(window).width() < 680) {
+		    $('#header-row').removeClass('row');
+		    	$('.project-overlay').show();
+
+		} else {
+		    $('#header-row').addClass('row');
+		    $('.project-overlay').hide();
+		}
+	}
+};
+
 
 
 $(jsTheme.init);
@@ -129,9 +146,8 @@ $(window).on("load", function() {
 
 $(document).ready( function(){ 
 
-	$('.project-overlay').hide();
-        
- 	$('.project-article').hover( 
+	if ($(window).width() > 680) {
+		$('.project-article').hover( 
             //Mouseover function 
             function(){ 
                 $(this).find('.project-overlay').slideDown(); 
@@ -141,9 +157,40 @@ $(document).ready( function(){
             function(){ 
                $(this).find('.project-overlay').slideUp(); 
             } 
-    ); 
+		); 
+	}
+	else {
 
- 
+	}
+
+
+	var mq = window.matchMedia( "(max-width: 680px)" );
+
+	$(window).resize(function() {
+ 		if (mq.matches) {			
+		    $('#header-row').removeClass('row');
+	    	$('.project-overlay').show();
+		}
+
+		else {
+			$('.project-overlay').hide();
+		    $('#header-row').addClass('row');
+		    $('.project-article').hover( 
+	            //Mouseover function 
+	            function(){ 
+	                $(this).find('.project-overlay').slideDown(); 
+	            }, //Don't forget the comma here! 
+	 
+	            //Mouseout function 
+	            function(){ 
+	               $(this).find('.project-overlay').slideUp(); 
+	            } 
+    		); 
+
+		}
+	
+	});
+
 }); 
 
 
