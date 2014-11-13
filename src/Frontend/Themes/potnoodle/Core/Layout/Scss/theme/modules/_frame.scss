@@ -82,6 +82,8 @@
 //
 
 .main-header-image {
+	max-width: none;
+	width: 100%;
 	position: fixed;
 	overflow: hidden;
 	height: 600px;

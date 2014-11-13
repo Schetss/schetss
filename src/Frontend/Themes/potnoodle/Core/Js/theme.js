@@ -194,6 +194,80 @@ $(document).ready( function(){
 }); 
 
 
+//
+// instagram
+//
+
+
+$(document).ready( function(){ 
+
+	var small = "<iframe src='http://www.intagme.com/in/?u=c2NoZXRzc3Rpam58aW58MTAwfDR8NHxGOEY4Rjh8eWVzfDF8dW5kZWZpbmVkfG5v' allowTransparency='true' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:444px; height: 444px' ></iframe>";
+
+	var medium = "<iframe src='http://www.intagme.com/in/?u=c2NoZXRzc3Rpam58aW58MjAwfDV8M3xGOEY4Rjh8eWVzfDF8dW5kZWZpbmVkfG5v' allowTransparency='true' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:1055px; height: 633px' ></iframe>";
+
+	var large = "<iframe src='http://www.intagme.com/in/?u=c2NoZXRzc3Rpam58aW58MjUwfDh8MnxGOEY4Rjh8eWVzfDF8dW5kZWZpbmVkfG5v' allowTransparency='true' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:2088px; height: 522px' ></iframe>";
+
+	var xlarge = "<iframe src='http://www.intagme.com/in/?u=c2NoZXRzc3Rpam58aW58MzAwfDEwfDJ8RjhGOEY4fHllc3wxfHVuZGVmaW5lZHxubw==' allowTransparency='true' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:3110px; height: 622px' ></iframe>";
+
+	var xxlarge = "<iframe src='http://www.intagme.com/in/?u=c2NoZXRzc3Rpam58aW58MzUwfDEyfDJ8RjhGOEY4fHllc3wxfHVuZGVmaW5lZHxubw==' allowTransparency='true' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:4332px; height: 722px' ></iframe>";
+
+	if ($(window).width() < 400) {
+		$('.instagram iframe').replaceWith(small);
+	}
+
+	else if ($(window).width() > 399 && $(window).width() < 1000) {
+		$('.instagram iframe').replaceWith(medium);
+	}
+
+	else if ($(window).width() > 999 && $(window).width() < 2000) {
+		$('.instagram iframe').replaceWith(large);
+	}
+
+	else if ($(window).width() > 1999 && $(window).width() < 3000) {
+		$('.instagram iframe').replaceWith(xlarge);
+	}
+
+	else {
+		$('.instagram iframe').replaceWith(xxlarge);
+	}
+
+
+	var s = window.matchMedia( "(max-width: 399px)" );
+
+	var m = window.matchMedia( "(max-width: 999px)");
+
+	var l = window.matchMedia( "(max-width: 1999px)");
+
+	var xl = window.matchMedia( "(max-width: 2999px)");
+
+	$(window).resize(function() {
+ 		if (s.matches) {			
+			$('.instagram iframe').replaceWith(small);   
+		}
+
+		else if (m.matches) {
+			$('.instagram iframe').replaceWith(medium);   
+		}
+
+		else if (l.matches) {
+			$('.instagram iframe').replaceWith(large);   
+		}
+
+		else if (xl.matches) {
+			$('.instagram iframe').replaceWith(xlarge);   
+		}
+
+		else {
+			$('.instagram iframe').replaceWith(xxlarge);   
+		}
+
+		
+	});
+
+}); 
+
+
+
 
 
 

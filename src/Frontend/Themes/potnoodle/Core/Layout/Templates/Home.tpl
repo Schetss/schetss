@@ -23,22 +23,24 @@
 						<iframe src="http://www.intagme.com/in/?u=c2NoZXRzc3Rpam58aW58MzAwfDEwfDJ8ZjhmOGY4fG5vfDF8dW5kZWZpbmVkfG5v" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:3010px; height: 602px" ></iframe>
 					</div>
 					
-					<div class="row ">	
-						<div class="triangle-top2"></div>
-					</div>
+					
 
 					<div class="volg-btn">
-						<a href="/nl/projecten">Volg ons op instagram</a>
+						<a href="/nl/projecten">Volg ons op Instagram</a>
 					</div>
 
 				</div>
+				<div class="row triangle-row">	
+					<div class="triangle-top2"></div>
+				</div>
+
 				<div class="row">
-					<div class="triangle-top"></div>
-					<div class="quote">
-						<p class="quote-title">Creatief digitaal</p>
-						<p class="quote-p">Van idee tot werkend eindproduct binnen uw deadline.</p>
+					<div class="quote2">
+						<p class="quote2-title">Design &amp; ontwikkeling</p>
+						<p class="quote2-p">Met een brede kennis van beide helpen wij u graag verder.</p>
 					</div>
 				</div>
+
 
 
 				<div class="content">
@@ -69,6 +71,7 @@
 		
 		</div>
 	</main>
+
 
 	{* Footer *}
 	{include:Core/Layout/Templates/Footer.tpl}
