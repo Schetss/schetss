@@ -26,7 +26,7 @@
 					
 
 					<div class="volg-btn">
-						<a href="/nl/projecten">Volg ons op Instagram</a>
+						<a href="http://instagram.com/schetss.be" target="_blank">Volg ons op Instagram</a>
 					</div>
 
 				</div>
@@ -36,8 +36,8 @@
 
 				<div class="row">
 					<div class="quote2">
-						<p class="quote2-title">Design &amp; ontwikkeling</p>
-						<p class="quote2-p">Met een brede kennis van beide helpen wij u graag verder.</p>
+						<p class="quote2-title">Logo of website</p>
+						<p class="quote2-p">Van klein grafisch werk tot een uitgebreide website.<br /> Of is het een idee, wij helpen u graag uw digitaal concept te realiseren. </p>
 					</div>
 				</div>
 

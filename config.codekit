@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18027",
+"creatorBuild": "18270",
 "files": {
 	"\/app\/AppKernel.php": {
 		"fileType": 8192,
@@ -378,6 +378,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/Backend\/Cache\/CompiledTemplates\/2c7f7176446ace61ebdbec33aa4929ac_Index.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/Backend\/Cache\/CompiledTemplates\/308d7234f99755f195a8811d86cf4d2a_Synonyms.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Backend\/Cache\/CompiledTemplates\/308d7234f99755f195a8811d86cf4d2a_Synonyms.tpl.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -8650,6 +8659,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/src\/Frontend\/Cache\/CompiledTemplates\/d88d4054b7e099ebd1af27f7d29ac4ed_cb0731e2cfc6c74f78db8b569bbabe6b.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Cache\/CompiledTemplates\/d88d4054b7e099ebd1af27f7d29ac4ed_cb0731e2cfc6c74f78db8b569bbabe6b.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/src\/Frontend\/Cache\/CompiledTemplates\/e24f5f25baa46cdfbe696ea2e7375dae_e0a51fa6d531b51bcdd491bfb9028dc1.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9290,7 +9308,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6656,
+		"initialSize": 6567,
 		"inputAbbreviatedPath": "\/src\/Frontend\/Core\/Layout\/images\/logo@2x.png",
 		"outputAbbreviatedPath": "\/src\/Frontend\/Core\/Layout\/images\/logo@2x.png",
 		"outputPathIsOutsideProject": 0,
@@ -9737,6 +9755,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/Logo_vrd-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5995,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/Logo_vrd-01.jpg",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/Logo_vrd-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/Profile_2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -9777,6 +9806,17 @@
 		"initialSize": 5464,
 		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/success@2x.png",
 		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/success@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/vrd_logo-01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7271,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/vrd_logo-01.png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/vrd_logo-01.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -9968,35 +10008,46 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/src\/Frontend\/Files\/userfiles\/images\/icon_2-01@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7301,
-		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_2-01@2x.png",
-		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_2-01@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/src\/Frontend\/Files\/userfiles\/images\/icon_3-01@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10598,
-		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_3-01@2x.png",
-		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_3-01@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/src\/Frontend\/Files\/userfiles\/images\/icon_4-01@2x.png": {
+	"\/src\/Frontend\/Files\/userfiles\/images\/icon_1-01.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5205,
-		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_4-01@2x.png",
-		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_4-01@2x.png",
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_1-01.png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_1-01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/userfiles\/images\/icon_2-01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3830,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_2-01.png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_2-01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/userfiles\/images\/icon_4-01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2434,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_4-01.png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_4-01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/userfiles\/images\/Logo_vrd-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46806,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/Logo_vrd-01.jpg",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/Logo_vrd-01.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -10041,6 +10092,17 @@
 		"initialSize": 52909,
 		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/Success@2x.png",
 		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/Success@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/userfiles\/images\/vrd_logo-01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21754,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/vrd_logo-01.png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/vrd_logo-01.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -44690,6 +44752,10 @@
 			"flagValue": -1
 			},
 		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
 			"active": 0,
 			"flagValue": -1
 			},

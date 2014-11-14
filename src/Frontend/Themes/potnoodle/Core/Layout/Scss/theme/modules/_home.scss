@@ -90,7 +90,7 @@
 	//color: darken($beta-text-color, 60);
 	color: $alpha-ui-color;
 	@include mq($bp3) {
-		font-size: 3.6em;
+		font-size: 3.4em;
 	}
 }
 
@@ -100,10 +100,10 @@
 	font-family: $beta-font-family;
 	color: darken($beta-text-color, 50);
 	//font-weight: bold;
-	margin-bottom: 0.8em;
+	margin-bottom: 0.7em;
 	@include mq($bp3) {
-		margin-top: -2.5em;
-		font-size: 2em;
+		margin-top: -2.4em;
+		font-size: 1.8em;
 	}
 }
 
@@ -114,7 +114,11 @@
 .home-images {
 	width: 100%;
 	overflow: hidden;
-	height: 600px;
+	height: 400px;
+
+	@include mq(400px) {
+		height: 600px;
+	}
 
 	@include mq(900px){
 		height: 500px;
@@ -144,14 +148,18 @@
 	.image-overlay2 {
 		background-color: darken($alpha-ui-color,20);
 		opacity: 0.3;
-		height: 600px;
+		height: 400px;
 		position: absolute;
 		z-index: 9999;
 		width: 100%;
 		display: block;
 
+		@include mq(400px) {
+			height: 600px;
+		}
+
 		@include mq(900px){
-		height: 500px;
+			height: 500px;
 		}
 
 		@include mq(1800px){
@@ -170,17 +178,26 @@
 		padding: 0.1em;
 		border-radius: $radius;
 		position: absolute;
-		width: 400px;
+		width: 80%;
 		border: 3px solid $gamma-ui-color;
 		top: 0;
 		margin-left: auto;
 		margin-right: auto;
 		left: 0;
 		right: 0;
-		margin-top: 275px;
 		height: 50px;
 		cursor: pointer;
 		z-index: 999999;
+		margin-top: 175px;
+
+
+		@include mq($bp2) {
+			width: 400px;
+		}
+
+		@include mq(400px) {
+			margin-top: 275px;
+		}
 
 		@include mq(900px){
 			margin-top: 225px;
@@ -224,6 +241,10 @@
 	border-bottom: 25px solid $beta-text-color;
 	right: 0;
 	z-index: 9999999;
+
+	@include mq($bp3) {
+		margin-right: 0.5em;;
+	}
 }
 
 
@@ -239,7 +260,7 @@
 	font-weight: bold;
 	color: $alpha-ui-color;
 	@include mq($bp3) {
-		font-size: 3.6em;
+		font-size: 3.4em;
 	}
 }
 .quote2-p {
@@ -251,7 +272,7 @@
 	//font-weight: bold;
 	margin-bottom: 0.8em;
 	@include mq($bp3) {
-		margin-top: -2.5em;
-		font-size: 2em;
+		margin-top: -2.4em;
+		font-size: 1.8em;
 	}
 }
