@@ -11,16 +11,16 @@
 	{option:items}
 		{iteration:items}
 		<div class="project-article">
-			<a href="{$items.full_url}" title="{$items.title}">
+			<!-- <a href="{$items.full_url}" title="{$items.title}"> -->
 				<article>
 						{option:items.image}<img src="{$FRONTEND_FILES_URL}/blog/images/source/{$items.image}" alt="{$items.title}" />{/option:items.image}
 					<div class="project-overlay">
 						<h2>{$items.title}</h2>
 						<hr />
-						<p>{$items.introduction}</p>
+						<p><!-- {$items.introduction} --> Komt snel online!</p>
 					</div>
 				</article>
-			</a>
+			<!-- </a> -->
 		</div>
 		{/iteration:items}
 	{/option:items}

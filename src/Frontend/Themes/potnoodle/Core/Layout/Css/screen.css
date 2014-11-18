@@ -1090,6 +1090,7 @@ textarea {
 
 input[type="submit"],
 button {
+  cursor: pointer;
   background-color: #FFCD14;
   color: #376EB6;
   border: none;
@@ -1100,7 +1101,7 @@ button {
   margin-top: 20px;
   font-size: 1.1em;
   font-weight: 600;
-  cursor: pointer; }
+  -webkit-appearance: none; }
 
 /*-----------------------------------------------------------*\
 
@@ -1130,6 +1131,7 @@ button {
   .header-holder {
     padding-top: 0em; } }
 .header-holder h1 {
+  font-size: 1.6em;
   color: #f8f8f8;
   padding-top: 1.5em;
   padding-bottom: 0.6em;
@@ -1137,7 +1139,8 @@ button {
   @media (min-width: 42.5em) {
     .header-holder h1 {
       padding-top: 4.5em;
-      padding-bottom: 0.75em; } }
+      padding-bottom: 0.75em;
+      font-size: 2.5em; } }
 
 .header {
   padding-top: 0.9em;
@@ -1463,10 +1466,13 @@ button {
   font-size: 2.5em;
   font-family: "proxima-nova", arial, sans-serif;
   font-weight: bold;
-  color: #376EB6; }
+  color: #376EB6;
+  line-height: 1.3em;
+  margin-bottom: 0.3em; }
   @media (min-width: 42.5em) {
     .quote-title {
-      font-size: 3.4em; } }
+      font-size: 3.4em;
+      margin-bottom: 0em; } }
 
 .quote-p {
   font-size: 1.5em;
@@ -1529,7 +1535,7 @@ button {
     padding: 0.1em;
     border-radius: 5px;
     position: absolute;
-    width: 80%;
+    width: 90%;
     border: 3px solid #FFCD14;
     top: 0;
     margin-left: auto;
@@ -1589,9 +1595,12 @@ button {
   font-size: 2.5em;
   font-family: "proxima-nova", arial, sans-serif;
   font-weight: bold;
+  line-height: 1.3em;
+  margin-bottom: 0.3em;
   color: #376EB6; }
   @media (min-width: 42.5em) {
     .quote2-title {
+      margin-bottom: 0em;
       font-size: 3.4em; } }
 
 .quote2-p {
@@ -1606,9 +1615,13 @@ button {
       margin-top: -2.4em;
       font-size: 1.8em; } }
 
-@media (min-width: 42.5em) {
-  .projects {
-    padding-bottom: 3em; } }
+.projects {
+  padding-top: 0.75em;
+  padding-bottom: 0.75em; }
+  @media (min-width: 42.5em) {
+    .projects {
+      padding-top: 0.45em;
+      padding-bottom: 4.5em; } }
 
 @media (min-width: 42.5em) {
   .project-article:nth-child(even) {
@@ -1618,21 +1631,22 @@ button {
   margin-bottom: 0; }
 
 .project-article {
-  border: 2px solid #dfdfdf;
   margin-top: 1.5em;
   margin-bottom: 3em;
   clear: both;
   width: 100%;
-  height: 300px;
+  height: 250px;
   overflow: hidden;
   position: relative; }
   @media (min-width: 42.5em) {
     .project-article {
+      border: 2px solid #dfdfdf;
       float: left;
       width: 48%;
       clear: none;
       margin-top: 40px;
-      margin-bottom: 0; } }
+      margin-bottom: 0;
+      height: 300px; } }
   .project-article img {
     min-width: 600px; }
 
@@ -1645,7 +1659,7 @@ button {
   zoom: 1;
   width: 100%;
   height: 300px;
-  padding-top: 4.5em;
+  padding-top: 3.15em;
   padding-bottom: 0em;
   text-align: center;
   color: #f8f8f8; }
@@ -1654,7 +1668,9 @@ button {
       background-color: transparent;
       background-color: rgba(0, 0, 0, 0.7);
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B3000000,endColorstr=#B3000000);
-      zoom: 1; } }
+      zoom: 1;
+      padding-top: 4.5em;
+      padding-bottom: 0em; } }
   .project-overlay hr {
     margin-left: auto;
     margin-right: auto;
@@ -1670,43 +1686,62 @@ button {
   margin-top: 0em;
   margin-bottom: 3em; }
   .article p {
-    width: 73%;
-    float: right;
+    width: 100%;
+    float: left;
     font-size: 1.5em;
     line-height: 1.9em;
     font-family: "ff-tisa-web-pro", serif; }
+    @media (min-width: 42.5em) {
+      .article p {
+        width: 73%;
+        float: right; } }
     .article p img {
-      width: 136.9%;
-      margin-left: -36.9%;
+      width: 100%;
       max-width: none; }
+      @media (min-width: 42.5em) {
+        .article p img {
+          width: 136.9%;
+          margin-left: -36.9%; } }
   .article h2 {
+    width: 100%;
+    float: left;
     color: #376EB6;
-    width: 73%;
-    float: right;
     padding-top: 1.5em;
     padding-bottom: 0.45em; }
+    @media (min-width: 42.5em) {
+      .article h2 {
+        width: 73%;
+        float: right; } }
   .article h3 {
     color: #376EB6;
-    width: 73%;
-    float: right;
+    width: 100%;
+    float: left;
     padding-top: 1.5em;
     padding-bottom: 0.45em; }
+    @media (min-width: 42.5em) {
+      .article h3 {
+        width: 73%;
+        float: right; } }
   .article blockquote {
-    margin-top: 3em;
-    padding-left: 1em;
-    font-size: 0.85em;
-    width: 24%;
-    float: left; }
-    .article blockquote p {
-      width: 100%;
-      font-family: "proxima-nova", arial, sans-serif; }
-      .article blockquote p a, .article blockquote p a:hover, .article blockquote p a:active, .article blockquote p a:visited {
-        color: #376EB6; }
-    .article blockquote img {
-      margin: 0;
-      padding: 0;
-      width: 80%;
-      max-width: none; }
+    display: none; }
+    @media (min-width: 42.5em) {
+      .article blockquote {
+        display: block;
+        margin-top: 3em;
+        padding-left: 1em;
+        font-size: 0.85em;
+        width: 24%;
+        float: left; }
+        .article blockquote p {
+          width: 100%;
+          font-family: "proxima-nova", arial, sans-serif; }
+          .article blockquote p a, .article blockquote p a:hover, .article blockquote p a:active, .article blockquote p a:visited {
+            color: #376EB6; }
+        .article blockquote img {
+          margin: 0;
+          padding: 0;
+          width: 80%;
+          max-width: none; } }
 
 .main-content {
   width: 100%;
@@ -1908,7 +1943,6 @@ button {
   position: absolute;
   cursor: pointer;
   display: block;
-  margin-right: 1.2em;
   right: 0;
   width: 4em;
   height: 4em;
@@ -1964,7 +1998,7 @@ button {
     color: #376EB6;
     clear: left;
     font-size: 2.5em;
-    padding-bottom: 0.4em; }
+    line-height: 1.7em; }
     @media (min-width: 42.5em) {
       .content-left h2 {
         font-size: 3.6em;
@@ -1990,7 +2024,7 @@ button {
 
 .content2 {
   text-align: center;
-  height: 250px;
+  height: 200px;
   overflow: hidden;
   clear: both;
   position: relative; }
@@ -2019,16 +2053,19 @@ button {
     padding: 0.1em;
     border-radius: 5px;
     position: absolute;
-    width: 400px;
+    width: 90%;
     border: 3px solid #FFCD14;
     top: 0;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
-    margin-top: 100px;
+    margin-top: 75px;
     height: 50px;
     cursor: pointer; }
+    @media (min-width: 42.5em) {
+      .content2 .project-btn {
+        width: 400px; } }
     .content2 .project-btn a, .content2 .project-btn a:hover, .content2 .project-btn a:active, .content2 .project-btn a:visited {
       display: block;
       width: 100%;

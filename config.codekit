@@ -8479,6 +8479,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/src\/Frontend\/Cache\/CompiledTemplates\/6ce40303901d10f6e9f4e7e35c2141cc_b91bb0c760ed06b5a934fc1f226a91a0.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Cache\/CompiledTemplates\/6ce40303901d10f6e9f4e7e35c2141cc_b91bb0c760ed06b5a934fc1f226a91a0.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/Frontend\/Cache\/CompiledTemplates\/7276157048d43dc749d9a4a59ac46532_00eb34471e949b864344d5501d723095.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Cache\/CompiledTemplates\/7276157048d43dc749d9a4a59ac46532_00eb34471e949b864344d5501d723095.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/src\/Frontend\/Cache\/CompiledTemplates\/735a98c991d8c3991b5a2db8e4382521_Breadcrumb.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -8556,6 +8574,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/Frontend\/Cache\/CompiledTemplates\/a883294440afda5834e83270423d9f0e_Head.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/Frontend\/Cache\/CompiledTemplates\/acf6a38249a08806826316101c97be72_786cdc5e91189f21afb15292a419ab27.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Cache\/CompiledTemplates\/acf6a38249a08806826316101c97be72_786cdc5e91189f21afb15292a419ab27.tpl.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -8691,6 +8718,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/Frontend\/Cache\/CompiledTemplates\/e93e9e2aa07096d1e13cb747aef7e736_Breadcrumb.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/Frontend\/Cache\/CompiledTemplates\/f2464045bd5c412abfc0442a9fa3c7c1_eeba8a34972efa5483ad20aee3f6014f.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Cache\/CompiledTemplates\/f2464045bd5c412abfc0442a9fa3c7c1_eeba8a34972efa5483ad20aee3f6014f.tpl.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -9308,7 +9344,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6567,
+		"initialSize": 6656,
 		"inputAbbreviatedPath": "\/src\/Frontend\/Core\/Layout\/images\/logo@2x.png",
 		"outputAbbreviatedPath": "\/src\/Frontend\/Core\/Layout\/images\/logo@2x.png",
 		"outputPathIsOutsideProject": 0,
@@ -9436,17 +9472,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/src\/Frontend\/Files\/blog\/images\/128x128\/vrd-nl.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 12598,
-		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/blog\/images\/128x128\/vrd-nl.jpg",
-		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/blog\/images\/128x128\/vrd-nl.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/src\/Frontend\/Files\/blog\/images\/source\/schetss-nl.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -9465,17 +9490,6 @@
 		"initialSize": 327446,
 		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/blog\/images\/source\/tc-duvels-nl.jpg",
 		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/blog\/images\/source\/tc-duvels-nl.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/src\/Frontend\/Files\/blog\/images\/source\/vrd-nl.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 274791,
-		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/blog\/images\/source\/vrd-nl.jpg",
-		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/blog\/images\/source\/vrd-nl.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -9766,6 +9780,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/presentation(1).png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5963,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/presentation(1).png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/presentation(1).png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/presentation.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6003,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/presentation.png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/presentation.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/presentation2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5773,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/presentation2.png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/presentation2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/presentation3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5809,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/presentation3.png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/presentation3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/presentation4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5801,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/presentation4.png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/presentation4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/src\/Frontend\/Files\/userfiles\/_thumbs\/Images\/Profile_2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -10019,6 +10088,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/src\/Frontend\/Files\/userfiles\/images\/icon_1-01@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6401,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_1-01@2x.png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_1-01@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/src\/Frontend\/Files\/userfiles\/images\/icon_2-01.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -10026,6 +10106,39 @@
 		"initialSize": 3830,
 		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_2-01.png",
 		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_2-01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/userfiles\/images\/icon_2-01@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5536,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_2-01@2x.png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_2-01@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/userfiles\/images\/icon_3-01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2333,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_3-01.png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_3-01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/userfiles\/images\/icon_3-01@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4309,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_3-01@2x.png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_3-01@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -10041,6 +10154,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/src\/Frontend\/Files\/userfiles\/images\/icon_4-01@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4035,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_4-01@2x.png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/icon_4-01@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/src\/Frontend\/Files\/userfiles\/images\/Logo_vrd-01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -10048,6 +10172,61 @@
 		"initialSize": 46806,
 		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/Logo_vrd-01.jpg",
 		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/Logo_vrd-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/userfiles\/images\/presentation(1).png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 373223,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/presentation(1).png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/presentation(1).png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/userfiles\/images\/presentation.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 333008,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/presentation.png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/presentation.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/userfiles\/images\/presentation2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 346949,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/presentation2.png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/presentation2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/userfiles\/images\/presentation3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 320751,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/presentation3.png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/presentation3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/Frontend\/Files\/userfiles\/images\/presentation4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 320409,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/presentation4.png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/presentation4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -10085,13 +10264,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/src\/Frontend\/Files\/userfiles\/images\/Success@2x.png": {
+	"\/src\/Frontend\/Files\/userfiles\/images\/success@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 52909,
-		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/Success@2x.png",
-		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/Success@2x.png",
+		"inputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/success@2x.png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Files\/userfiles\/images\/success@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -11023,24 +11202,24 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Img\/home_bg.jpg": {
+	"\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/img\/home_bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1.93466e+06,
-		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Img\/home_bg.jpg",
-		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Img\/home_bg.jpg",
+		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/img\/home_bg.jpg",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/img\/home_bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Img\/icon-menu.png": {
+	"\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/img\/icon-menu.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 127,
-		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Img\/icon-menu.png",
-		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Img\/icon-menu.png",
+		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/img\/icon-menu.png",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/img\/icon-menu.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -11061,22 +11240,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/patterns\/  .scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/patterns\/  .scss",
-		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/css\/  .css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/patterns\/_alerts.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -11086,6 +11249,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/patterns\/_alerts.scss",
 		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/css\/_alerts.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/patterns\/_buttons.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/patterns\/_buttons.scss",
+		"outputAbbreviatedPath": "\/src\/Frontend\/Themes\/potnoodle\/Core\/Layout\/Scss\/css\/_buttons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

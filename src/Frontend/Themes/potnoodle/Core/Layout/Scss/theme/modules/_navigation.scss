@@ -93,14 +93,12 @@
 	position: absolute;
 	cursor: pointer;
 	display: block;
-	margin-right: 1.2em;
 	right: 0;
 	width: 4em;
 	height: 4em;
 	z-index: 999;
-	//text-indent: -9999px;
-	//@include text-dimensions($alpha-font-size,2,2);
 	@include svg-bg("../img/icon-menu", ".png", transparent, 10%, no-repeat, 2em);
+
 
 	@include mq($bp3) {
 		display: none;

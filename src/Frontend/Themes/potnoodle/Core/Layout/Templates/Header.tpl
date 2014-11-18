@@ -18,7 +18,9 @@
 				{/option:positionImage}
 				{/option:!item.image}
 				{option:item.image}
+				<p>
 					<img src="{$FRONTEND_FILES_URL}/blog/images/source/{$item.image}" alt="{$item.title}" itemprop="image" />
+				</p>
 		 	{/option:item.image}
 		</div>	
 

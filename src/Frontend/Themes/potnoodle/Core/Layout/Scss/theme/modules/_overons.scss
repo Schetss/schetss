@@ -64,8 +64,8 @@
 		color: $alpha-ui-color;
 		clear: left;
 		font-size: 2.5em;
-		padding-bottom: 0.4em;
-
+		// padding-bottom: 0.4em;
+		line-height: 1.7em;
 		@include mq($bp3) {
 			font-size: 3.6em;
 			line-height: 1.5em;
@@ -106,7 +106,7 @@
 .content2 {
 	text-align: center;
 
-	height: 250px; 
+	height: 200px; 
 	overflow: hidden;
 	clear: both;
 	position: relative;
@@ -137,16 +137,20 @@
 		padding: 0.1em;
 		border-radius: $radius;
 		position: absolute;
-		width: 400px;
+		width: 90%;
 		border: 3px solid $gamma-ui-color;
 		top: 0;
 		margin-left: auto;
 		margin-right: auto;
 		left: 0;
 		right: 0;
-		margin-top: 100px;
+		margin-top: 75px;
 		height: 50px;
 		cursor: pointer;
+
+		@include mq($bp3) {
+			width: 400px;
+		}
 
 		a, a:hover, a:active, a:visited {
 			display: block;

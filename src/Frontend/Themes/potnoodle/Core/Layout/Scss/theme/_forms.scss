@@ -100,9 +100,11 @@ textarea {
 
 input[type="submit"],
 button {
+
+	cursor: pointer;
 	background-color: $gamma-ui-color;
 	color: $alpha-ui-color;
-	border:none;
+	border: none;
 	float: right;
 	border-radius: $radius;
 	width: 200px;
@@ -110,8 +112,7 @@ button {
 	margin-top: 20px;
 	font-size: 1.1em;
 	font-weight: 600;
-	cursor: pointer;
-
+	-webkit-appearance: none;
 
 	// @extend %btn;
 	// @include btn-s;
