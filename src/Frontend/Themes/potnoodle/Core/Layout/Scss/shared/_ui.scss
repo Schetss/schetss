@@ -23,7 +23,8 @@
 	-webkit-font-smoothing: antialiased;
 
 	&:hover,
-	&:visited {
+	&:visited,
+	&:active {
 		text-decoration: none;
 	}
 
@@ -56,7 +57,7 @@
 // Button color
 // use: @mixin btn-color(color1[,color2]);
 
-@mixin btn-color($c1: $alpha-ui-color, $c2: lighten($c1, $depth)) {
+@mixin btn-color($c1: $gamma-ui-color, $c2: lighten($c1, $depth)) {
 
 	border: $border-width $border-style $c1;
 

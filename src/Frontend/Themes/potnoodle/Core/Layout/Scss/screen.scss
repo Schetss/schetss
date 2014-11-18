@@ -23,7 +23,7 @@
 
 	@import "patterns/reset";
 	@import "patterns/grid";
-	@import "patterns/buttons";
+	// @import "patterns/buttons";
 	@import "patterns/forms";
 	@import "patterns/alerts";
 	@import "patterns/pagination";
@@ -40,8 +40,11 @@
 
 		@import "theme/modules/frame";
 		@import "theme/modules/home";
+		@import "theme/modules/projecten";
 		@import "theme/modules/styleguide";
 		@import "theme/modules/grid";
+		@import "theme/modules/navigation";
+		@import "theme/modules/overons";
 
 // Print
 

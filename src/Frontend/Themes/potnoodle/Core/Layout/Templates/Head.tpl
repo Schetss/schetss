@@ -25,11 +25,18 @@
 	{/iteration:cssFiles}
 
 	{* Favicon *}
-	<link rel="icon" href="{$THEME_URL}/favicon.ico" />
+	<link rel="icon" href="{$SITE_URL}/favicon.ico" />
 	<!--
 		Place all other favicons in website root (e.g. http://web.dev/favicon.ico).
 		Add your font license here, if necessary.
 	-->
+	<!-- Fonts -->
+
+	<script src="//use.typekit.net/khj8bjq.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+
+
+
 
 	{* Windows 8 tile *}
 	<meta name="application-name" content="{$siteTitle}"/>

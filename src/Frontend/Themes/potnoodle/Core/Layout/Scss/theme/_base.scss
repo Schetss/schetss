@@ -9,7 +9,7 @@
 }
 
 html {
-	background-color: $alpha-text-color;
+	background-color:  $alpha-ui-color;
 	-webkit-overflow-scrolling: touch;
 	-webkit-text-size-adjust: 100%;
 	    -ms-text-size-adjust: 100%;
@@ -27,13 +27,13 @@ body {
 }
 
 ::-moz-selection {
-	background-color: $alpha-text-color;
+	background-color:  $alpha-ui-color;
 	color: lighten($alpha-text-color, 65%);
 	text-shadow: none;
 }
 
 ::selection {
-	background-color: $alpha-text-color;
+	background-color:  $alpha-ui-color;
 	color: lighten($alpha-text-color, 65%);
 	text-shadow: none;
 }
@@ -52,4 +52,8 @@ hr {
 img {
 	vertical-align: top;
 	border: 0;
+}
+
+.clear {
+	clear: both;
 }

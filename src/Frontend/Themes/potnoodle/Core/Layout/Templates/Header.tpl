@@ -1,38 +1,66 @@
 <header class="holder header-holder">
-	<div class="row header-row">
-		<div class="header">
 
-			{* SEO logo: H1 for home, p for other pages *}
+	<div class="main-header">
 
-			{option:isPage1}
-				<h1><a title="{$siteTitle}" href="/">{$siteTitle}</a></h1>
-			{/option:isPage1}
+		<div class="main-header-image">
+			<div class="image-overlay"></div>
+			{option:!item.image}
+				{* Image position *}
+				{option:positionImage}
+					{iteration:positionImage}
+					{option:!positionImage.blockIsHTML}
+						{$positionImage.blockContent}
+					{/option:!positionImage.blockIsHTML}
+					{option:positionImage.blockIsHTML}
+						{$positionImage.blockContent}
+					{/option:positionImage.blockIsHTML}
+					{/iteration:positionImage}
+				{/option:positionImage}
+				{/option:!item.image}
+				{option:item.image}
+				<p>
+					<img src="{$FRONTEND_FILES_URL}/blog/images/source/{$item.image}" alt="{$item.title}" itemprop="image" />
+				</p>
+		 	{/option:item.image}
+		</div>	
 
-			{option:!isPage1}
-				<p><a title="{$siteTitle}" href="/">{$siteTitle}</a></p>
-			{/option:!isPage1}
+		<div class="header-left"></div><div class="header-right"></div>
+		
+		<div id="header-row" class="row header-row">
+			<div class="header">
+				{* SEO logo: H1 for home, p for other pages *}
 
-			{* Navigation *}
-			<nav>
-				{$var|getnavigation:'page':0:1}
-			</nav>
-
-			{* Meta *}
-			<nav>
-				{$var|getnavigation:'meta':0:1}
-			</nav>
-
-			{* Languages *}
-			{option:languages}
-				<nav>
-					{include:Core/Layout/Templates/Languages.tpl}
+				<a title="{$siteTitle}" href="/"><img class="logo retina" src="/src/Frontend/Core/Layout/images/logo.png" alt="logo" /></a>
+		
+				{* Navigation *}
+				<nav class="main-nav">
+					{$var|getnavigation:'page':0:1}
 				</nav>
-			{/option:languages}
 
-			{* Search widget: so you don't have to make a position *}
-			{$var|parsewidget:'Search':'Form'}
+			</div>
+		</div>
 
+		<div class="row main-header-title">
+			{* Page title *}
+			<header>
+				{option:!hideContentTitle}
+					{* Header position *}
+					{option:positionHeader}
+						{iteration:positionHeader}
+						{option:!positionHeader.blockIsHTML}
+							{$positionHeader.blockContent}
+						{/option:!positionHeader.blockIsHTML}
+						{option:positionHeader.blockIsHTML}
+							{$positionHeader.blockContent}
+						{/option:positionHeader.blockIsHTML}
+						{/iteration:positionHeader}
+					{/option:positionHeader}
+				{/option:!hideContentTitle}
+				{option:item.title}
+					<h1 class="main-title">{$item.title}</h1>
+				{/option:item.title}
+			</header>
+			
 		</div>
 	</div>
 </header>
-

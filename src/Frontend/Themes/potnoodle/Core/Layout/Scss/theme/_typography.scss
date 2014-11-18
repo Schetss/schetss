@@ -11,8 +11,8 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	font-family: $beta-font-family;
-	font-weight: $alpha-font-weight;
+	font-family: $alpha-font-family;
+	font-weight: $beta-font-weight;
 	text-rendering: optimizelegibility;
 }
 
@@ -46,14 +46,10 @@ pre {
 }
 
 ul,
-ol,
-blockquote {
+ol {
 	padding-left: 1em;
 }
 
-blockquote {
-	font-style: italic;
-}
 
 table {
 	text-align: left;
@@ -127,3 +123,8 @@ a {
 		background-size: em($alpha-baseline-grid) em($alpha-baseline-grid); // calculate the baselinegrid in em's
 	}
 }
+
+
+
+
+

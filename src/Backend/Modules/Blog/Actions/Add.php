@@ -176,6 +176,7 @@ class Add extends BackendBaseActionAdd
                         $fs->mkdir($imagePath . '/128x128');
                     }
 
+
                     // image provided?
                     if ($this->frm->getField('image')->isFilled()) {
                         // build the image name
