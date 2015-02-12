@@ -97,7 +97,7 @@
 	width: 4em;
 	height: 4em;
 	z-index: 999;
-	@include svg-bg("../img/icon-menu", ".png", transparent, 10%, no-repeat, 2em);
+	@include svg-bg("../Img/icon-menu", ".png", transparent, 10%, no-repeat, 2em);
 
 
 	@include mq($bp3) {

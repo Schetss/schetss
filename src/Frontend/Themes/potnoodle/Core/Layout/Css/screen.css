@@ -1947,10 +1947,10 @@ button {
   width: 4em;
   height: 4em;
   z-index: 999;
-  background: transparent url("../img/icon-menu.png") 10% no-repeat;
+  background: transparent url("../Img/icon-menu.png") 10% no-repeat;
   background-size: 2em; }
   .svg .main-nav-trigger {
-    background: transparent url("../img/icon-menu.svg") 10% no-repeat;
+    background: transparent url("../Img/icon-menu.svg") 10% no-repeat;
     background-size: 2em; }
   @media (min-width: 42.5em) {
     .main-nav-trigger {

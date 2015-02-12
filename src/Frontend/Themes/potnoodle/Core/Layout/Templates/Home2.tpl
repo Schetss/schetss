@@ -18,7 +18,7 @@
 
 				<div class="home-images">
 					<div class="image-overlay2"></div>
-					<div class="instagram">
+					<div class="instagram test">
 						<!-- www.intagme.com -->
 						<iframe id="intagme" src="http://www.intagme.com/in/?u=c2NoZXRzc3Rpam58aW58MzAwfDEwfDJ8ZjhmOGY4fG5vfDF8dW5kZWZpbmVkfG5v" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:3010px; height: 602px" ></iframe>
 					</div>

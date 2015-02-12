@@ -199,16 +199,19 @@ $(document).ready( function(){
 //
 
 
+
+
 $(document).ready( function(){ 
-	var small = "<iframe src='http://www.intagme.com/in/?u=c2NoZXRzcy5iZXxpbnwxMDB8NHw0fHx5ZXN8MXx1bmRlZmluZWR8bm8=10' allowTransparency='true' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:444px; height: 444px' ></iframe>";
+	
+	var small = "<iframe id='intagme' src='http://www.intagme.com/in/?u=c2NoZXRzcy5iZXxpbnwxMDB8NHw0fHx5ZXN8MXx1bmRlZmluZWR8bm8=10' allowTransparency='true' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:444px; height: 444px' ></iframe>";
 
-	var medium = "<iframe src='http://www.intagme.com/in/?u=c2NoZXRzcy5iZXxpbnwyMDB8NXwzfHx5ZXN8MXx1bmRlZmluZWR8bm8=' allowTransparency='true' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:1055px; height: 633px' ></iframe>";
+	var medium = "<iframe id='intagme' src='http://www.intagme.com/in/?u=c2NoZXRzcy5iZXxpbnwyMDB8NXwzfHx5ZXN8MXx1bmRlZmluZWR8bm8=' allowTransparency='true' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:1055px; height: 633px' ></iframe>";
 
-	var large = "<iframe src='http://www.intagme.com/in/?u=c2NoZXRzcy5iZXxpbnwyNTB8OHwyfHx5ZXN8MXx1bmRlZmluZWR8bm8=' allowTransparency='true' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:2088px; height: 522px' ></iframe>";
+	var large = "<iframe id='intagme' src='http://www.intagme.com/in/?u=c2NoZXRzcy5iZXxpbnwyNTB8OHwyfHx5ZXN8MXx1bmRlZmluZWR8bm8=' allowTransparency='true' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:2088px; height: 522px' ></iframe>";
 
-	var xlarge = "<iframe src='http://www.intagme.com/in/?u=c2NoZXRzcy5iZXxpbnwzMDB8MTB8Mnx8eWVzfDF8dW5kZWZpbmVkfG5v' allowTransparency='true' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:3110px; height: 622px' ></iframe>";
+	var xlarge = "<iframe id='intagme' src='http://www.intagme.com/in/?u=c2NoZXRzcy5iZXxpbnwzMDB8MTB8Mnx8eWVzfDF8dW5kZWZpbmVkfG5v' allowTransparency='true' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:3110px; height: 622px' ></iframe>";
 
-	var xxlarge = "<iframe src='http://www.intagme.com/in/?u=c2NoZXRzcy5iZXxpbnwzNTB8MTJ8Mnx8eWVzfDF8dW5kZWZpbmVkfG5v' allowTransparency='true' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:4332px; height: 722px' ></iframe>";
+	var xxlarge = "<iframe id='intagme' src='http://www.intagme.com/in/?u=c2NoZXRzcy5iZXxpbnwzNTB8MTJ8Mnx8eWVzfDF8dW5kZWZpbmVkfG5v' allowTransparency='true' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:4332px; height: 722px' ></iframe>";
 
 	if ($(window).width() < 400) {
 		$('.instagram iframe').replaceWith(small);
@@ -219,7 +222,7 @@ $(document).ready( function(){
 	}
 
 	else if ($(window).width() > 999 && $(window).width() < 2000) {
-		$('.instagram iframe').replaceWith(large);
+		$('.instagram iframe ').replaceWith(large);
 	}
 
 	else if ($(window).width() > 1999 && $(window).width() < 3000) {
